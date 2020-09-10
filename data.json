@@ -5,1877 +5,149 @@
       "conformsTo": "https://www.data.govt.nz/toolkit/schema",
       "dataset":[
     {
-        "title": "Statistics New Zealand Chief Executive expenses",
-        "description": "Report of business expenses or gifts incurred by the Government Statistician as chief executive.",
-        "identifier": "https://www.stats.govt.nz/corporate/",
+        "title": "2018 Census Place Summaries Content",
+        "description": "All Topics for 2018 Census Place Summaries Content",
+        "identifier": "www.stats.govt.nz",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "keyword": [
-            "chief executive",
-            "government statistician",
-            "open government",
-            "statistics"
+            "2018 census",
+            "travel"
         ],
-        "issued": "2012-01-4",
+        "issued": "2019-09-24T23:29:00Z",
+        "modified": "2019-09-24T23:44:00Z",
         "publisher": {
             "name": "Stats NZ"
         },
         "contactPoint": {
-            "fn": "Finance enquiry",
-            "hasEmail": "julie.young@stats.govt.nz"
+            "fn": "Information Centre",
+            "hasEmail": "info@stats.govt.nz"
         },
-        "landingPage": "https://www.stats.govt.nz/corporate/",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "State sector performance",
+        "landingPage": "www.stats.govt.nz",
+        "accrualPeriodicity": "irregular",
+        "theme": "Census",
+        "temporal": "2006",
         "distribution": [
             {
-                "downloadURL": "https://catalogue.data.govt.nz/dataset/5793c164-9990-4f80-838d-825673cf45df/resource/c977667e-77a7-4980-9909-bfbc23544454/download/final-mark-sowden-ce-expenditure-jan-june.xlsx",
-                "format": "XLSX",
-                "title": "January 2020 - June 2020"
-            },
-            {
-                "downloadURL": "https://catalogue.data.govt.nz/dataset/5793c164-9990-4f80-838d-825673cf45df/resource/8cfbfcf9-d600-435c-85dd-93e200484256/download/final-liz-macpherson-ce-expenditure-july-dec.xlsx",
-                "format": "XLSX",
-                "title": "July 2019 - December 2019"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Chief-executive-expenses-1-July-2017-30-June-2018.xlsx",
-                "format": "XLSX",
-                "title": "2017-2018 expenses"
+                "downloadURL": "https://opendata-api-nonprod.azure-api.net/uat/v2/Census2018PlaceSummaries",
+                "format": "API",
+                "title": "2018 Census Place Summaries"
             }
         ]
     },
     {
-        "title": "Housing Net Worth Statistics",
-        "description": "Household net worth statistics give a picture of the net worth (wealth) of New Zealanders, by looking at their household assets - financial and non-financial - and their liabilities.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Household%20net%20worth%20statistics%2CInformation%20releases",
+        "title": "Inventory file for Stats NZ",
+        "description": "List of available datasets from Stats NZ",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "keyword": [
-            "economy",
-            "ethnicity",
-            "gender and sex",
-            "households",
-            "maori",
-            "older people",
-            "society"
+            "open data",
+            "statistics"
         ],
-        "modified": "2018-12-14",
+        "issued": "2020-04-1",
+        "publisher": {
+            "name": "Stats NZ"
+        },
+        "contactPoint": {
+            "fn": "Publishing team",
+            "hasEmail": "opendata@stats.govt.nz"
+        },
+        "accrualPeriodicity": "irregular",
+        "theme": "Inventory",
+        "distribution": [
+            {
+                "downloadURL": "https://raw.githubusercontent.com/StatisticsNZ/Stats-NZ-data-inventory/master/statsnz_inventory.csv",
+                "format": "XLS",
+                "title": "Stats NZ Inventory file"
+            }
+        ]
+    },
+    {
+        "title": "Abortion Statistics",
+        "description": "Abortion statistics measure the number of induced abortions that occur in New Zealand hospitals or licensed abortion clinics.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Abortion%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "abortions",
+            "health",
+            "society",
+            "women"
+        ],
+        "modified": "2018-06-19",
         "publisher": {
             "name": "Statistics NZ"
         },
         "contactPoint": {
-            "fn": "InfoCentre"
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
         },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Household%20net%20worth%20statistics%2CInformation%20releases",
-        "accrualPeriodicity": "irregular",
-        "temporal": "2015/2017",
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Abortion%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Population and society",
         "distribution": [
             {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/f98d411f-4903-477a-b7ce-ffc70e85b378",
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/7845b64a-dc1a-427c-b9a5-89eaf7c4580b",
                 "title": "Metadata"
             },
             {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Household-net-worth-statistics/Household-net-worth-statistics-Year-ended-June-2018/Download-data/household-net-worth-statistics-year-ended-june-2018-csv.zip",
-                "format": "ZIP",
-                "title": "Year ended 30 June 2018"
-            }
-        ]
-    },
-    {
-        "title": "Wholesale Trade Survey",
-        "description": "Wholesale Trade statistics measure the sale or resale of new or used goods to retailers, including businesses or institutional users (including government). They provide short-term economic indicators for the wholesale trade sector.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Wholesale%20trade%20survey%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "commerce",
-            "exports",
-            "open government",
-            "trade",
-            "trade and industry",
-            "wholesale trade"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Wholesale%20trade%20survey%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Commerce, trade and industry",
-        "distribution": [
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "Infoshare data tool"
+            },
             {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Value-of-building-work-put-in-place/Value-of-building-work-put-in-place-March-2018-quarter/Download-data/value-of-building-work-put-in-place-march-2018-quarter.xlsx",
-                "format": "XLSX"
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Abortion-statistics/Abortion-statistics-Year-ended-December-2017/Download-data/abortion-statistics-year-ended-december-2017.xlsx",
+                "format": "XLSX",
+                "title": "Year ended December 2017 data"
             }
         ]
     },
     {
-        "title": "Well-being Statistics",
-        "description": "Well-being statistics provide information on a wide range of social and economic outcomes, and how these outcomes are distributed across different groups within the New Zealand population aged 15 years and over.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Well-being%20statistics%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "archives new zealand",
-            "economic",
-            "population",
-            "social",
-            "wellbeing"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Well-being%20statistics%2CInformation%20releases",
-        "accrualPeriodicity": "irregular",
-        "theme": "Population and society"
-    },
-    {
-        "title": "Value of Building Work Put in Place",
-        "description": "These releases provide estimates of the actual dollar value of work put in place on construction jobs in New Zealand. It measures activity within the construction sector.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Value%20of%20building%20work%20put%20in%20place%2CInformation%20releases",
+        "title": "Accommodation Survey",
+        "description": "This provides statistics on guest night numbers, capacity and occupancy rates of hotels, motels, backpacker accommodation, and holiday parks in New Zealand each month. These statistics are used by regional tourism organisations, local and national government and the accommodation industry for monitoring and planning.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Accommodation%20survey%2CInformation%20releases",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "keyword": [
             "accommodation",
-            "additions",
-            "alterations",
-            "commercial",
-            "construction",
-            "educational",
-            "factories",
-            "hospitals",
-            "industrial buildings",
-            "new dwellings",
-            "nursing homes",
-            "out buildings",
-            "residential",
-            "seasonally adjusted",
-            "trend"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Value%20of%20building%20work%20put%20in%20place%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Building, construction and housing",
-        "distribution": [
-            {
-                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/browse-categories/industry-sectors/tourism/tourism-sattellite-account-2016/tsa-16-prov-year-tables-1-16.xlsx",
-                "format": "XLSX",
-                "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "Transport Vehicle Registration",
-        "description": "Transport vehicle registrations record motor vehicles currently licensed by type, and new and ex-overseas motor vehicles registered by type.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Transport%20vehicle%20registrations%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
             "economy",
             "industries",
-            "transport"
+            "tourism"
         ],
-        "modified": "2019-02-20",
+        "modified": "2018-02-15",
         "publisher": {
             "name": "Statistics NZ"
         },
         "contactPoint": {
-            "fn": "InfoCentre"
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
         },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Transport%20vehicle%20registrations%2CInformation%20releases",
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Accommodation%20survey%2CInformation%20releases",
         "accrualPeriodicity": "R/P1M",
-        "theme": "Transport",
-        "temporal": "1998/2018",
+        "theme": "Commerce, trade and industry",
         "distribution": [
             {
-                "downloadURL": "http://www.stats.govt.nz/infoshare",
-                "title": "Infoshare online tool"
-            }
-        ]
-    },
-    {
-        "title": "Tourism Satellite Account",
-        "description": "These releases provide a picture of the role tourism plays in New Zealand, including the changing levels and impact of tourism activity, and the industry's contribution to the economy",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Tourism%20satellite%20account%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "domestic",
-            "economics",
-            "expenditure",
-            "export",
-            "foreign exchange",
-            "gst",
-            "imports",
-            "international",
-            "tourism value"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Tourism%20satellite%20account%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Population and society",
-        "distribution": [
-            {
-                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/SubnationalPopulationProjections/HOTP2013base/SubnationalPopulationProjections2013baseHOTP.pdf",
-                "format": "PDF",
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/38574cd6-b696-41a5-b311-41bfa5611a99",
                 "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "The Hedging of Overseas Foreign Currency Liabilities Survey",
-        "description": "The Hedging of Overseas Foreign Currency Liabilities Survey is a supplement of the Quarterly International Investment Survey (QIIS ). It asks for risk management information about respondent's foreign currency overseas liabilities.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "accrualPeriodicity": "R/P1Y",
-        "distribution": [
-            {
-                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/SubnationalPopulationEstimates/HOTPAtJun16/snpe-at30jun16-all-tables.xlsx",
-                "format": "XLSX"
             },
             {
-                "format": "XLS"
-            }
-        ]
-    },
-    {
-        "title": "Subnational Population Estimates",
-        "description": "These provide population estimates in the 16 regional council areas (regions), 67 territorial authority areas, and 21 Auckland local board areas (LBAs) of New Zealand. This includes quarterly and annual changes in the resident population, and estimated population numbers for selected age groups.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Subnational%20population%20estimates%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "age group",
-            "area unit",
-            "births",
-            "deaths",
-            "estimated resident population",
-            "internal migration",
-            "international migration",
-            "population",
-            "population change",
-            "population growth",
-            "regional council",
-            "regional council areas",
-            "subnational",
-            "territoral authority",
-            "territorial authority areas",
-            "urban area"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Subnational%20population%20estimates%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Population and society",
-        "distribution": [
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "Accommodation survey time series data"
+            },
             {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Subnational-family-and-household-projections/Subnational-family-and-household-projections-2013base-update/Download-data/subnational-family-and-households-projections-13-38-update-tables.xlsx",
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Accommodation-survey/Accommodation-survey-January-2019/Download-data/accommodation-survey-january-2019-rto-and-accommodation-type-pivot-table.xlsx",
                 "format": "XLSX",
-                "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "Subnational Ethnic Population Projections",
-        "description": "Subnational ethnic population projections indicate the future population living in New Zealand's 16 regional council areas (regions), 67 territorial authority areas (TAs), and 21 Auckland local board areas (LBAs) for four broad and overlapping ethnic groups: 'European or Other (including New Zealander)', M?ori, Asian, and Pacific.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Subnational%20ethnic%20population%20projections%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "asian",
-            "ethnic",
-            "european",
-            "european or other",
-            "maori",
-            "mori",
-            "new zealander",
-            "pacific",
-            "population",
-            "subnational"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Subnational%20ethnic%20population%20projections%2CInformation%20releases",
-        "accrualPeriodicity": "irregular",
-        "theme": "Population and society"
-    },
-    {
-        "title": "Statistics NZ's Chief Executive Business Expense Disclosure",
-        "description": "This documents business expenses and gifts incurred by the Government Statistician as Chief Executive for each financial year",
-        "identifier": "https://www.stats.govt.nz/about-us/corporate-publications",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/about-us/corporate-publications",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "State sector performance",
-        "distribution": [
+                "title": "January 2019 - RTO and accommodation type pivot table"
+            },
             {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Chief-executive-expenses-1-July-2017-30-June-2018.xlsx",
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Accommodation-survey/Accommodation-survey-January-2019/Download-data/accommodation-survey-january-2019-rto-and-origin-pivot-table.xlsx",
                 "format": "XLS",
-                "title": "Business expense disclosure"
-            }
-        ]
-    },
-    {
-        "title": "Statistics NZ submissions and advice to the Governance and Administration Select Committee (formerly known as Government and Administration Select Committee)",
-        "description": "The Governance and Administration Select Comittee provide written advice in response to public submissons by the committees' offical advisers. Documents of interest relating to Statistics New Zealand include Quarterly Reports to the Minister, Statistics New Zealand's Reponse to Annual Review Questions.",
-        "identifier": "https://www.parliament.nz/en/pb/sc/submissions-and-advice/?criteria.Keyword=Statistics&criteria.Author=Government+Administration+Committee&criteria.ParliamentNumber=-1&criteria.Timeframe=&criteria.DateFrom=&criteria.DateTo=",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Select Committee Office"
-        },
-        "contactPoint": {
-            "fn": "Select Committee Office"
-        },
-        "landingPage": "https://www.parliament.nz/en/pb/sc/submissions-and-advice/?criteria.Keyword=Statistics&criteria.Author=Government+Administration+Committee&criteria.ParliamentNumber=-1&criteria.Timeframe=&criteria.DateFrom=&criteria.DateTo=",
-        "theme": "State sector performance"
-    },
-    {
-        "title": "Statistics NZ Annual Report (Financial Statements)",
-        "description": "The financial statements in this report include an audit of a number of financial areas. These include the statement of financial position, statement of commitments, statement of contingent liabilities and contingent assets, the statement of comprehensive revenue and expense, statement of changes in equity, and statement of cash flows for the year ended on that date and the notes to the financial statements that include accounting policies and other explanatory information.",
-        "identifier": "https://www.stats.govt.nz/about-us/corporate-publications",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "annual report",
-            "financial statement"
-        ],
-        "modified": "2018-10-16",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/about-us/corporate-publications",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "State sector performance",
-        "temporal": "2004/2018",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Annual-report-2018/Stats-NZ-Annual-Report-Full-WEB-1.pdf",
-                "format": "PDF",
-                "title": "Year ended 30 June 2018"
+                "title": "January 2019 - RTO and origin pivot table"
             },
             {
-                "downloadURL": "http://archive.stats.govt.nz/about_us/what-we-do/our-publications/annual-reports.aspx",
-                "format": "PDF",
-                "title": "Annual reports 2004-17"
-            }
-        ]
-    },
-    {
-        "title": "Serious injury outcome indicators",
-        "description": "Serious injury outcome indicators shows trends in fatal, serious non-fatal, and serious (fatal and non-fatal) injuries for the whole population, M?ori, and children (aged under 15 years).",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Serious%20injury%20outcome%20indicators%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "children",
-            "employment and unemployment",
-            "health",
-            "injuries",
-            "maori",
-            "society"
-        ],
-        "issued": "2000",
-        "modified": "2018-10-1",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "Injury Data team",
-            "hasEmail": "Injury&Crimedata-SharedMailbox@stats.govt.nz."
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Serious%20injury%20outcome%20indicators%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Health",
-        "temporal": "1994/2017",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/ed2d795c-dd2e-457d-97ea-4249fcef2a93",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Serious-injury-outcome-indicators/Serious-injury-outcome-indicators-2000-17/Download-data/serious-injury-outcome-indicators-2000-17-csv.zip",
-                "format": "ZIP",
-                "title": "2000-17 dataset"
-            },
-            {
-                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7935",
-                "title": "Dataset using NZ.Stats online tool"
-            }
-        ]
-    },
-    {
-        "title": "Screen Industry Survey",
-        "description": "These releases provide information on businesses involved in the screen industry, including production and post production activities, film and video distribution, film exhibition, and television broadcasting.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Screen%20industry%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "business",
-            "economy",
-            "employment and unemployment",
-            "industries"
-        ],
-        "issued": "2006-08-31",
-        "modified": "2018-04-10",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Screen%20industry%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Arts, Culture and Heritage",
-        "temporal": "2004/2017",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/d5b98a1e-27ab-4792-8bd9-75d3f3493f44",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Screen-industry/Screen-industry-2016-17/Download-data/screen-industry-2016-17-tables.xlsx",
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Accommodation-survey/Accommodation-survey-January-2019/Download-data/accommodation-survey-january-2019-territorial-authority-pivot-table.xlsx",
                 "format": "XLS",
-                "title": "2016/17 dataset"
-            }
-        ]
-    },
-    {
-        "title": "Ready-mixed concrete, secondary production",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Ready-mixed%20concrete%20secondary%20production%20%28SEP%29%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "modified": "2019-02-8",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Ready-mixed%20concrete%20secondary%20production%20%28SEP%29%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "temporal": "1992/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare",
-                "title": "Infoshare online tool"
-            }
-        ]
-    },
-    {
-        "title": "Property Transfer",
-        "description": "Property transfer statistics summarise the citizenship or visa status and tax residency of buyers and sellers of homes and land in New Zealand. They are are used to monitor tax obligations, and inform housing policy.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Property%20transfer%20statistics%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "dwellings",
-            "land",
-            "overseas people",
-            "specified estate in land"
-        ],
-        "issued": "2018-06-7",
-        "modified": "2019-02-8",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Property%20transfer%20statistics%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "temporal": "2013/",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/88b62a7f-7ce9-4c97-821e-e7d9505ef55e",
-                "title": "Metadata"
+                "title": "January 2019 - Territorial authority pivot table"
             },
             {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Property-transfer-statistics/Property-transfer-statistics-December-2018-quarter/Download-data/property-transfer-statistics-december-2018-quarter-tables-csv.zip",
-                "format": "ZIP",
-                "title": "December 2018 quarter data"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare",
-                "title": "Infoshare data tool"
-            }
-        ]
-    },
-    {
-        "title": "Productivity Measures Statistics",
-        "description": "Productivity statistics measure how efficiently inputs (capital and labour) are used within the economy to produce outputs.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Productivity%20statistics%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "economy",
-            "industries",
-            "productivity"
-        ],
-        "issued": "2017-03-22",
-        "modified": "2018-02-22",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "productivity@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Productivity%20statistics%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Fiscal, tax and economics",
-        "temporal": "1978/2017",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Overseas-merchandise-trade/Overseas-merchandise-trade-April-2018/Download-data/overseas-merchandise-trade-April-2018.xlsx",
-                "format": "XLSX",
-                "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "Overseas Merchandise Trade",
-        "description": "This information release provides statistical information on the importing and exporting of merchandise goods between New Zealand and other countries. Merchandise trade includes goods which add to or subtract from the material resources in New Zealand as a result of their movement in or out of the country. Data is obtained from the New Zealand Customs Service.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Overseas%20merchandise%20trade%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "agriculture",
-            "agriculture imports",
-            "cargo",
-            "commerce",
-            "exports",
-            "exports as gdp",
-            "fire extinguishers",
-            "fireworks",
-            "gdp",
-            "import",
-            "import export directory",
-            "importa and exports by category",
-            "imports",
-            "meat",
-            "merchandise trade",
-            "milk powder",
-            "mussels",
-            "nz customs",
-            "oil gas",
-            "open government",
-            "overseas trade",
-            "pyrotechnics",
-            "tariff",
-            "trade",
-            "trade and industry",
-            "trophy"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "Trade data team",
-            "hasEmail": "overseastrade@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Overseas%20merchandise%20trade%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1M",
-        "theme": "Commerce, trade and industry",
-        "temporal": "1990/2018-12"
-    },
-    {
-        "title": "NZ's Environmental Reporting Series",
-        "description": "Statistics and information about the state of the New Zealand’s environment, co-published by Statistics NZ and the Ministry for the Environment.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=New%20Zealand%27s%20environmental%20reporting%20series%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "air",
-            "environment"
-        ],
-        "modified": "2018-10-18",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=New%20Zealand%27s%20environmental%20reporting%20series%2CInformation%20releases",
-        "accrualPeriodicity": "irregular",
-        "temporal": "2015/2017",
-        "distribution": [
-            {
-                "downloadURL": "https://data.mfe.govt.nz/data/category/environmental-reporting/air/",
-                "title": "Air data dataset"
-            }
-        ]
-    },
-    {
-        "title": "National Accounts input-output tables",
-        "description": "Input-output tables are a powerful analytical tool for describing the structure of New Zealand’s economy. They show the relationships between industries, the goods and services they produce, and who uses them.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "accrualPeriodicity": "irregular",
-        "temporal": "2007/",
-        "distribution": [
-            {
-                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/NationalAccounts/HOTPYeMar11/NationalAccountsYeMar11HOTP.pdf",
-                "format": "PDF"
-            }
-        ]
-    },
-    {
-        "title": "Longitudinal Immigration Study of New Zealand",
-        "description": "International visitor arrivals to New Zealand provides monthly and annual data showing the number and characteristics of visitor arrivals.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "demography",
-            "education",
-            "employment",
-            "health",
-            "housing",
-            "living arrangement",
-            "migration",
-            "population",
-            "settlement",
-            "social"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "theme": "Population and society",
-        "temporal": "2004/2010",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Local-authority-statistics/Local-authority-statistics-March-2018-quarter/Download-data/local-authority-statistics-march-2018-quarter-tables.xlsx",
-                "format": "XLSX"
-            },
-            {
-                "format": "XLS"
-            },
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/551e4107-6040-44fe-a5df-fde83989e6c1",
-                "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "Linked Employee-Employer Data",
-        "description": "These releases provide statistics on filled jobs, job flows, worker flows, mean and median earnings for continuing jobs and new hires, and total earnings.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Linked%20employer-employee%20data%20%28LEED%29%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            " age",
-            "firm size",
-            "industry",
-            "leed",
-            "region",
-            "sector",
-            "sex",
-            "territorial authority"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Linked%20employer-employee%20data%20%28LEED%29%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Employment"
-    },
-    {
-        "title": "Labour Market Statistics (Income)",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Labour%20market%20statistics%20%28income%29%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Labour%20market%20statistics%20%28income%29%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Labour-market-statistics/Labour-market-statistics-March-2018-quarter/Download-data/household-labour-force-survey-march-2018-quarter-tables.xlsx",
-                "format": "XLSX",
-                "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "International Visitor Arrivals to New Zealand",
-        "description": "International visitor arrivals to New Zealand provides monthly and annual data showing the number and characteristics of visitor arrivals.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=International%20visitor%20arrivals%20to%20New%20Zealand%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=International%20visitor%20arrivals%20to%20New%20Zealand%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1M",
-        "theme": "Population and society",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/International-travel-and-migration/International-travel-and-migration-April-2018/Download-data/international-travel-and-migration-april-2018-tables.xlsx",
-                "format": "XLSX",
-                "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "International Trade in Services and Royalties Survey",
-        "description": "This survey is used to calculate New Zealand's imports and exports of services from other countries.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre"
-        },
-        "accrualPeriodicity": "R/P3M",
-        "distribution": [
-            {
-                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/InjuryStatistics/HOTP16/InjuryStatistics16HOTP.pdf",
-                "format": "PDF"
-            }
-        ]
-    },
-    {
-        "title": "Human Resources Capability (HRC) Survey",
-        "description": "The Human Resource Capability data collection is run annually and collects anonymous information about Public Service department employees, including staff numbers, pay, senior leaders, diversity and workplace wellbeing. The results provides trends and insights across the Public Service workforce. The results can be drawn on to monitor, plan and address present and future workforce issues at department and system levels.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "State Services Commission"
-        },
-        "contactPoint": {
-            "fn": "State Services Commission"
-        },
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "State sector performance",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Household-net-worth-statistics/Household-net-worth-statistics-Year-ended-June-2018/Download-data/household-net-worth-statistics-year-ended-june-2018-csv.zip",
-                "format": "ZIP"
-            }
-        ]
-    },
-    {
-        "title": "Household Net Worth Statistics",
-        "description": "Household net worth statistics give a picture of the net worth (wealth) of New Zealanders, by looking at their household assets - financial and non-financial - and their liabilities.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Household%20net%20worth%20statistics%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "economy",
-            "ethnicity",
-            "gender and sex",
-            "households",
-            "income",
-            "maori",
-            "older people",
-            "society"
-        ],
-        "modified": "2018-12-14",
-        "publisher": {
-            "name": "Stats NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Household%20net%20worth%20statistics%2CInformation%20releases",
-        "accrualPeriodicity": "irregular",
-        "theme": "Population and society",
-        "temporal": "2015/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/f98d411f-4903-477a-b7ce-ffc70e85b378",
-                "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "Household Economic Survey (Savings)",
-        "description": "The Household Economic Survey (HES) is an annual survey that collects information on income, housing costs, material wellbeing and demographic information on households and individuals in New Zealand. There are three versions of the HES, including HES (Income), HES (Expenditure) and HES (Savings). The HES (Income) is the primary content and is collected every year, but combined with HES (Expenditure) and HES (Savings) alternately in the two years  in between the standalone HES every year.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            " expenditure",
-            "fiscal",
-            "households",
-            "income",
-            "open government",
-            "tax and economics"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "accrualPeriodicity": "irregular"
-    },
-    {
-        "title": "Household Economic Survey (Income)",
-        "description": "The Household Economic Survey (HES) is an annual survey that collects information on income, housing costs, material wellbeing and demographic information on households and individuals in New Zealand. There are three versions of the HES, including HES (Income), HES (Expenditure) and HES (Savings). The HES (Income) is the primary content and is collected every year, but combined with HES (Expenditure) and HES (Savings) alternately in the two years  in between the standalone HES every year.",
-        "identifier": "https://www.stats.govt.nz/insights?filters=Household%20economic%20survey%20%28income%29%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            " expenditure",
-            "fiscal",
-            "households",
-            "income",
-            "open government",
-            "tax and economics"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/insights?filters=Household%20economic%20survey%20%28income%29%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Population and society",
-        "temporal": "1973/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/item/nz.govt.stats/27d850c1-939c-4e93-b61c-a1b5196b7f27/248",
-                "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "Household Economic Survey",
-        "description": "The Household Economic Survey (HES) is an annual survey that collects information on income, housing costs, material wellbeing and demographic information on households and individuals in New Zealand. There are three versions of the HES, including HES (Income), HES (Expenditure) and HES (Savings). The HES (Income) is the primary content and is collected every year, but combined with HES (Expenditure) and HES (Savings) alternately in the two years  in between the standalone HES every year.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            " expenditure",
-            "fiscal",
-            "households",
-            "income",
-            "open government",
-            "tax and economics"
-        ],
-        "modified": "2015-11-26",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Population and society"
-    },
-    {
-        "title": "Household Econmic Survey (Expenditure)",
-        "description": "The Household Economic Survey (HES) is an annual survey that collects information on income, housing costs, material wellbeing and demographic information on households and individuals in New Zealand. There are three versions of the HES, including HES (Income), HES (Expenditure) and HES (Savings). The HES (Income) is the primary content and is collected every year, but combined with HES (Expenditure) and HES (Savings) alternately in the two years  in between the standalone HES every year.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            " expenditure",
-            "fiscal",
-            "households",
-            "income",
-            "open government",
-            "tax and economics"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "accrualPeriodicity": "irregular",
-        "theme": "Population and society"
-    },
-    {
-        "title": "Historical de facto population estimates",
-        "description": "De facto population estimates include all people present in New Zealand and counted by the census (census night population count). De facto estimates include visitors from overseas who are counted on census night, but exclude New Zealand residents who are temporarily overseas. The estimated de facto population at a given date after census includes births, deaths and net migration (arrivals less departures) of people during the period between census night and the given date. De facto population estimates are no longer produced.",
-        "identifier": "http://archive.stats.govt.nz/browse_for_stats/population/estimates_and_projections/historical-population-tables.aspx",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "de facto",
-            "estimates",
-            "historical",
-            "historical estimates",
-            "population and migration"
-        ],
-        "issued": "1926-03-31",
-        "modified": "1995-12-31",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "http://archive.stats.govt.nz/browse_for_stats/population/estimates_and_projections/historical-population-tables.aspx",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Population and society",
-        "temporal": "1926/1995",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/bec27cc6-c9e2-4b7a-b1f4-cb5e096f91ad",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "http://archive.stats.govt.nz/~/media/Statistics/browse-categories/population/estimates-projections/national-pop-estimates/historical-pop-estimates.xlsx",
-                "format": "XLSX",
-                "title": "Dataset"
-            }
-        ]
-    },
-    {
-        "title": "Government Current Transactions",
-        "description": "Government Current Transactions is a component of the Services item of New Zealand's Balance of Payments statement.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Goods-and-services-trade-by-country/Goods-and-services-trade-by-country-Year-ended-March-2018/Download-data/goods-and-services-trade-by-country-year-ended-march-2018-tables.xlsx",
-                "format": "XLSX"
-            }
-        ]
-    },
-    {
-        "title": "Geographic boundary data annual release",
-        "description": "The Stats NZ geographic data service provides geographic boundaries for 2018 as well as other recent years, and a selection of 2013 Census spatial data.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Geographic%20boundary%20data%20annual%20release%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "census",
-            "maori",
-            "population"
-        ],
-        "modified": "2018-12-6",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Geographic%20boundary%20data%20annual%20release%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Population and society",
-        "distribution": [
-            {
-                "downloadURL": "https://datafinder.stats.govt.nz/layers/category/annual-boundaries/2019/?q=2019"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "Infoshare data tool"
-            }
-        ]
-    },
-    {
-        "title": "Environmental Protection Expenditure",
-        "description": "This series was part of an annual investigation into environmental protection expenditure and its importance to the New Zealand economy. Environment protection expenditure (EPE) is an internationally recognised term used to describe all goods and services aimed at protecting the environment and encouraging the sustainable use of the earth’s natural resources.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "temporal": "2000/2003",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Environmental-economic-accounts-2018/Download-data/air-emissions-1990-2015-csv.csv",
-                "format": "CSV"
-            }
-        ]
-    },
-    {
-        "title": "Economy Wide Census 1987 Study Series",
-        "description": "The Economy Wide Census 1987  covered most industrial activity, and provided the first comprehensive single year profile of the New Zealand economy.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "accrualPeriodicity": "irregular",
-        "temporal": "1986/1986",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Economic-survey-of-manufacturing/Economic-survey-of-manufacturing-March-2018-quarter/Download-data/economic-survey-of-manufacturing-march-2018-quarter.xlsx",
-                "format": "XLSX"
-            }
-        ]
-    },
-    {
-        "title": "Economic Survey of Manufacturing",
-        "description": "The purpose of the Economic Survey of Manufacturing is to collect statistics from a cross section of New Zealand businesses involved in manufacturing. The financial data collected by this survey is used to produce a range of economic indicators. These statistics help government and other organisations in planning and decision making",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Economic%20survey%20of%20manufacturing%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "economy",
-            "industries",
-            "manufacturing and production"
-        ],
-        "modified": "2018-12-10",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Economic%20survey%20of%20manufacturing%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Commerce, trade and industry",
-        "temporal": "1977/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/8b4c8a22-aec1-4b11-bdab-95f96d7dedd9",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Economic-survey-of-manufacturing/Economic-survey-of-manufacturing-September-2018-quarter/Download-data/economic-survey-of-manufacturing-september-2018-quarter-csv.zip",
-                "format": "ZIP",
-                "title": "September 2018 dataset"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare",
-                "title": "Infoshare data tool"
-            }
-        ]
-    },
-    {
-        "title": "Divorces",
-        "description": "Divorce statistics measure the number of dissolutions of marriage and civil unions that have orders granted in New Zealand.  Unless otherwise stated divorce statistics refer to orders for dissolution of both marriage and civil union granted in New Zealand.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Marriages%20civil%20unions%20and%20divorces%20statistics%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "dissolution",
-            "divorce",
-            "marital status",
-            "marriage separation",
-            "population and migration",
-            "vital statistics"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Marriages%20civil%20unions%20and%20divorces%20statistics%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Population and society",
-        "temporal": "1953/2017",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/f874d0c9-f454-4992-93dd-7294f4618854",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Marriages-civil-unions-and-divorces/Marriages-civil-unions-and-divorces-Year-ended-December-2017/Download-data/marriages-civil-unions-and-divorces-december-2017-zipped-csv-tables.zip",
-                "format": "ZIP",
-                "title": "December 2017 dataset"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare",
-                "title": "Infoshare data tool"
-            }
-        ]
-    },
-    {
-        "title": "District Health Board Financial Statistics",
-        "description": "Statistics about district health boards provide information about the financial performance of publicly funded hospital and health service providers.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Health",
-        "distribution": [
-            {
-                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/browse-categories/health/disabilities/He-haua-maori-findings-from-2013-disability-survey/he-haua-maori-disability-survey.pdf",
-                "format": "PDF"
-            }
-        ]
-    },
-    {
-        "title": "Disability Survey",
-        "description": "Disability statistics provides information about children and adults with a disability living in New Zealand. This includes the numbers of people with a disability, the nature and cause of impairments and the type of support required.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Disability%20survey%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "disability",
-            "new zealand"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Disability%20survey%2CInformation%20releases",
-        "accrualPeriodicity": "irregular",
-        "theme": "Population and Society",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Births-and-deaths/Births-and-deaths-Year-ended-December-2017/Download-data/births-and-deaths-year-end-december-2017-tables.xlsx",
-                "format": "XLSX",
-                "title": "Metadata"
-            }
-        ]
-    },
-    {
-        "title": "Deaths",
-        "description": "These measure the number of deaths registered in New Zealand. Death statistics provide local authorities, health authorities, and research institutions with information needed to plan future and current social services.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Births%20and%20deaths%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "births and deaths",
-            "gender and sex",
-            "population",
-            "women"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Births%20and%20deaths%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Population and society",
-        "temporal": "1848/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/24c7f58a-7a19-4ac5-b66f-374c563932bf",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "Infoshare data tool"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Births-and-deaths/Births-and-deaths-Year-ended-December-2017/Download-data/births-and-deaths-year-ended-december-2017-zipped-csv-tables.zip",
-                "format": "ZIP",
-                "title": "Year ended December 2017"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Deaths-by-statistical-area-2-and-area-unit-for-comparison.csv",
-                "format": "CSV",
-                "title": "Death data by statistical area 2 and area unit (comparison)"
-            }
-        ]
-    },
-    {
-        "title": "Cruise Ship Traveller Statistics",
-        "description": "Since the early 2000s, the number of cruise ships visiting New Zealand has increased significantly. From 2017, Stats NZ is publishing statistics on the number and characteristics of cruise ship travellers, including passengers and crew, and region/port statistics.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Cruise%20ship%20traveller%20statistics%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Cruise%20ship%20traveller%20statistics%2CInformation%20releases",
-        "theme": "Population and society",
-        "distribution": [
-            {
-                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/CrownResearchInstituteStatistics/HOTPYe30Jun13/CrownResearchInstituteStatisticsYe30Jun13HOTP.pdf",
-                "format": "PDF"
-            }
-        ]
-    },
-    {
-        "title": "Crown Research Institute Finances",
-        "description": "This annual release provides provisional financial results of the nine Crown Research Institutes (CRIs). The activities of these institutes, which are in a number of different industries, are mainly focused on research and new product development.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "cri",
-            "cris",
-            "crown research institute",
-            "crown research institutes",
-            "finance",
-            "fiscal",
-            "open government",
-            "tax and economics"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Science and Research",
-        "temporal": "1992/2015",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/43d858f5-04b8-4ada-8daa-3a2b3e6b96bb",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare",
-                "title": "Infoshare: to view & download time-series data"
-            }
-        ]
-    },
-    {
-        "title": "Crown Financial Information System",
-        "description": "Crown Financial Information System (CFIS) is sourced from Treasury.  An analysis which records the financial transactions of the Crown with all other economic sectors, such as private enterprise, households, local government, state owned enterprises and the rest of the world, is also prepared from the data source.The financial data collected by CFIS is needed to compile quarterly and annual statistics on the performance of the New Zealand economy.  The information is used in the calculation of the Gross Domestic Product, which measures the value of goods less the cost of production.  The information is also used to compile the Analysis of the Crown Accounts.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "distribution": [
-            {
-                "downloadURL": "http://archive.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/CrownAccountsAnalysis/HOTPYeJun05/Crown-Accounts-Analysis-jun05alltables.xls",
-                "format": "XLS"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "Use Infoshare to view and download time-series data"
-            }
-        ]
-    },
-    {
-        "title": "Criminal Conviction and Sentencing Statistics",
-        "description": "Ministry of Justice court statistics of completed criminal charges for adults (aged 17 years or more) charged in court.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Criminal%20conviction%20and%20sentencing%20statistics%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "adult",
-            "conviction",
-            "convitions",
-            "court",
-            "crime",
-            "criminal",
-            "justics",
-            "minstry of justice",
-            "offence",
-            "sentencing"
-        ],
-        "modified": "2018-09-25",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Criminal%20conviction%20and%20sentencing%20statistics%2CInformation%20releases",
-        "accrualPeriodicity": "irregular",
-        "theme": "Justice",
-        "temporal": "1980/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/7bc31b5b-5afe-42d8-a476-e4daba5cd496",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7371&_ga=2.48915302.1743379965.1551838710-1576571055.1551838710"
-            },
-            {
-                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7372&_ga=2.42206053.1743379965.1551838710-1576571055.1551838710"
-            },
-            {
-                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7373&_ga=2.52079465.1743379965.1551838710-1576571055.1551838710"
-            }
-        ]
-    },
-    {
-        "title": "Consumers Price Index",
-        "description": "These releases provide information on the price change of goods and services purchased by private New Zealand households.  The CPI is used to help set monetary policy and for monitoring economic performance. Employers and employees use the CPI in wage negotiations.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Consumers%20price%20index%20%28CPI%29%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "consumers price index",
-            "economy",
-            "households",
-            "price indexes"
-        ],
-        "issued": "2017-07-18",
-        "modified": "2018-10-16",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Consumers%20price%20index%20%28CPI%29%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Fiscal, tax and economics",
-        "temporal": "1975/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/8b0860b8-cf63-4f12-a578-8eed8ba69ac3",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Consumers-price-index/Consumers-price-index-December-2018-quarter/Download-data/consumers-price-index-december-2018-quarter-csv.zip",
-                "format": "ZIP",
-                "title": "December 2018 quarter dataset"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "Infoshare data tool"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Consumers-price-index/CPI-and-FPI-back-series-30-Nov-2017/cpi-and-fpi-back-series-csv.csv",
-                "format": "CSV",
-                "title": "CPI and FPI back series"
-            }
-        ]
-    },
-    {
-        "title": "Civil unions",
-        "description": "Civil union statistics measure the number of civil unions registered in New Zealand. Civil unions may be entered into by couples of the same sex or by couples of different sexes.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Marriages%20civil%20unions%20and%20divorces%20statistics%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "family",
-            "gender and sex",
-            "marriages civil unions and divorces",
-            "older people",
-            "population",
-            "society"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Marriages%20civil%20unions%20and%20divorces%20statistics%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Population and society",
-        "temporal": "2005/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/b3045dd9-ab14-4d67-b079-ab3b67b761d2",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Marriages-civil-unions-and-divorces/Marriages-civil-unions-and-divorces-Year-ended-December-2017/Download-data/marriages-civil-unions-and-divorces-december-2017-zipped-csv-tables.zip",
-                "format": "ZIP",
-                "title": "December 2017 dataset"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "Infoshare data tool"
-            }
-        ]
-    },
-    {
-        "title": "Child and Youth Prosecution Statistics - tables (NZ.Stat)",
-        "description": "The Ministry of Justice provides data to Stats NZ about children (aged 10-13) and young people (aged 14-16) charged in court for official release on the Stats NZ website.  Children and young people who are convicted of an offence in the District or High Court are included in the Youth Prosecution Statistics as well as those whose charges are proved in the Youth Court. All numbers in the Youth Prosecution Statistics are rounded to the nearest multiple of three, with the exception of zeroes, which remain as zeroes. The Youth Court is closed to the public, so any details that may identify an individual young person cannot be reported.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Child%20and%20youth%20prosecution%20statistics%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "children",
-            "crime and justice",
-            "gender and sex",
-            "society"
-        ],
-        "issued": "1992",
-        "modified": "2018-09-25",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Child%20and%20youth%20prosecution%20statistics%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Justice",
-        "temporal": "1992/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7381",
-                "title": "Children & youth charged in court"
-            },
-            {
-                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7382&_ga=2.124518858.1743379965.1551838710-1576571055.1551838710",
-                "title": "Children & youth given an order in court"
-            }
-        ]
-    },
-    {
-        "title": "Central Government Enterprise Survey",
-        "description": "This collects data on the financial transactions of Crown entities. The data collected by this survey is needed to compile quarterly and annual statistics on the performance of the New Zealand economy, such as calculating gross domestic product (GDP) and statistics on Crown research institutes.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "distribution": [
-            {
-                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/InternationalTradeinServicesandRoyalties/HOTPYeJun11/InternationalTradeinServicesandRoyaltiesYeJun11HOTP.pdf",
-                "format": "PDF"
-            }
-        ]
-    },
-    {
-        "title": "Census of International Trade in Services and Royalties",
-        "description": "This is a census of all New Zealand businesses that either export or import commercial services and/or receive or make payments abroad for royalties.",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "accounting",
-            "advertising",
-            "architecture",
-            "audio visual",
-            "commercial",
-            "communication",
-            "computer",
-            "construction",
-            "consultancy",
-            "country",
-            "cultural",
-            "engineering",
-            "exports of services",
-            "financial",
-            "government services",
-            "imports of services",
-            "insurance",
-            "legal",
-            "management",
-            "market research",
-            "merchanting",
-            "mode of supply",
-            "news and information",
-            "public opinion polling",
-            "public releations",
-            "recreational",
-            "research and development",
-            "software",
-            "technical services",
-            "transportation",
-            "travel"
-        ],
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "accrualPeriodicity": "irregular",
-        "theme": "Commerce, trade and industry",
-        "distribution": [
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Business-price-indexes/Business-price-indexes-September-2018-quarter/Download-data/business-price-indexes-september-2018-quarter.csv",
-                "format": "CSV"
-            }
-        ]
-    },
-    {
-        "title": "Business Price Indexes",
-        "description": "This combines the producers price index (PPI) and capital goods price index (CGPI) information releases into one quarterly business price index information release.   The PPI provides information on the change in the general level of prices for the productive sector of New Zealand. The CGPI provides information on changes in the general price level of fixed capital assets.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Business%20price%20indexes%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "agriculture",
-            "business",
-            "economy",
-            "industries",
-            "price indexes"
-        ],
-        "issued": "2015-08-19",
-        "modified": "2019-02-20",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Business%20price%20indexes%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Commerce, trade and industry",
-        "temporal": "1994/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/3cad91a6-e3a2-4dca-bb77-52e11442a0bf",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Business-price-indexes/Business-price-indexes-December-2018-quarter/Download-data/business-price-indexes-december-2018-quarter-csv-corrected.csv",
-                "format": "CSV",
-                "title": "December 2018 quarter data"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "PPI, CEP or FPI data"
-            }
-        ]
-    },
-    {
-        "title": "Business Operations Survey",
-        "description": "The Business Operations Survey is to collect performance measures from New Zealand businesses to better understand the practices and behaviours they undertake which may have an impact on their performance. These statistics feed into policy and micro data research that helps identify the current situation of the New Zealand business environment, as well as potential areas of improvement. The survey covers all businesses in New Zealand that have 6 more employees, and have been active for one year or more.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Business%20operations%20survey%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "and communication technology",
-            "business",
-            "economy",
-            "industries",
-            "information"
-        ],
-        "issued": "2017-03-22",
-        "modified": "2019-03-28",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Business%20operations%20survey%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Business, Economy, Industries, Information and communication technology, Research and development",
-        "temporal": "2015/2017",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/98568739-f933-4c00-8d56-d523f20e68bb",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Business-operations-survey/Business-operations-survey-2018/Download-data/business-operations-survey-2018-business-finance-csv.csv",
-                "format": "CSV",
-                "title": "Business finance 2018"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Business-operations-survey/Business-operations-survey-2018/Download-data/business-operations-survey-2018-changing-nature-of-work-csv.csv",
-                "format": "CSV",
-                "title": "Changing nature of work data 2018"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare",
-                "title": "Business Operations time series data"
-            }
-        ]
-    },
-    {
-        "title": "Business Activity (GST) Indicator Series",
-        "description": "These releases provide information on business activity in New Zealand, by industry. The Business Activity Indicator is derived from goods and services tax (GST) data. These releases were suspended in 2002.",
-        "identifier": "http://archive.stats.govt.nz/browse_for_stats/businesses/business_growth_and_innovation/business-activity-indicator-info-releases.aspx",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "business",
-            "business activity",
-            "gst",
-            "tax"
-        ],
-        "modified": "2002-02-22",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "http://archive.stats.govt.nz/browse_for_stats/businesses/business_growth_and_innovation/business-activity-indicator-info-releases.aspx",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Fiscal, tax and economics",
-        "temporal": "1992/2001",
-        "distribution": [
-            {
-                "downloadURL": "http://archive.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/BusinessActivityIndicatorGST/HOTPSept01qtr/b-a-gst-i-sep-01-qtr-all-tables.xls",
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Accommodation-survey/Accommodation-survey-January-2019/Download-data/accommodation-survey-january-2019.xlsx",
                 "format": "XLS",
-                "title": "September 2001 quarter data"
-            }
-        ]
-    },
-    {
-        "title": "Building Consents Issued",
-        "description": "This information release contains statistics on consents for residential and non-residential buildings by region and building type. It includes the number, value and floor area of new residential dwellings, and the value of consents for residential alterations and additions. It also includes the value of consents for non-residential buildings, and the floor area of new non-residential buildings",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Building%20consents%20issued%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "building",
-            "economy",
-            "housing"
-        ],
-        "issued": "2017-08-30",
-        "modified": "2019-03-29",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Building%20consents%20issued%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1M",
-        "theme": "Commerce, trade and industry",
-        "temporal": "1965/2019",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/ee083b32-8c10-4ccf-b1ee-a4990b27273c",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Building-consents-issued/Building-consents-issued-February-2019/Download-data/building-consents-issued-february-2019-csv.zip",
-                "format": "CSV, ZIP",
-                "title": "February 2019 data"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "Building consents time series data"
-            }
-        ]
-    },
-    {
-        "title": "Births",
-        "description": "These measure the number of births  registered in New Zealand. Birth and statistics provide local authorities, health authorities, and research institutions with information needed to plan future and current social services.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Births%20and%20deaths%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "births and deaths",
-            "gender and sex",
-            "population",
-            "women"
-        ],
-        "issued": "1848",
-        "modified": "2018-11-1",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Births%20and%20deaths%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Population and society",
-        "temporal": "1848/09-2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/24f68263-9666-4dca-b5d8-c1bc4bef92c4",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "Birth time series data"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Births-and-deaths/Births-and-deaths-Year-ended-December-2018/Download-data/births-and-deaths-year-ended-december-2018-csv.zip",
-                "format": "ZIP",
-                "title": "Year ended December 2018 data"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Births-by-statistical-area-2-and-area-unit-for-comparison.csv",
-                "format": "CSV",
-                "title": "Births data by statistical area 2 and area unit (comparison)"
-            }
-        ]
-    },
-    {
-        "title": "Balance of Payments and International Investment Position",
-        "description": "These statistics provide records of the value of the country's transactions with the rest of the world in goods, services, income, and transfers. They also record changes in New Zealand's financial claims on (assets), and liabilities to, the rest of the world",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Balance%20of%20payments%20and%20international%20investment%20position%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "balance of payments",
-            "economy",
-            "imports and exports"
-        ],
-        "issued": "1997",
-        "modified": "2018-09-26",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Balance%20of%20payments%20and%20international%20investment%20position%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Fiscal, tax and economics",
-        "temporal": "2001/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/13e41c3d-4ff4-403b-a503-ecd498f8bc1c",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "Balance of payment time series data"
-            }
-        ]
-    },
-    {
-        "title": "Annual Enterprise Survey",
-        "description": "The ongoing Annual Enterprise Survey (AES) is New Zealand's most comprehensive source of financial statistics and provides annual financial performance and financial position information about business operation within New Zealand. Its coverage is around 80% of New Zealand's Gross Domestic Product (GDP).",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Annual%20enterprise%20survey%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "business",
-            "economy",
-            "industries"
-        ],
-        "issued": "1992",
-        "modified": "2018-06-29",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Annual%20enterprise%20survey%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "Commerce, trade and industry",
-        "temporal": "1986/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/36809771-984d-4e6b-89a1-576f2118b05b",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Annual-enterprise-survey/Annual-enterprise-survey-2017-financial-year-provisional/Download-data/annual-enterprise-survey-2017-financial-year-provisional-csv.csv",
-                "format": "CSV",
-                "title": "2017 Financial Year dataset (provisional)"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Annual-enterprise-survey/Annual-enterprise-survey-2017-financial-year-provisional/Download-data/annual-enterprise-survey-2017-financial-year-provisional-size-bands-csv.csv",
-                "format": "CSV",
-                "title": "2017 financial year (provisional) - size bands"
-            }
-        ]
-    },
-    {
-        "title": "Annual Balance Sheets",
-        "description": "These provide estimates of assets, liabilities and net worth held by New Zealand institutional sectors (e.g. businesses, households and government) at a single point in time",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Annual%20balance%20sheets%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "business",
-            "economy",
-            "government finance",
-            "gross domestic product",
-            "households",
-            "industries",
-            "national accounts"
-        ],
-        "issued": "1848",
-        "modified": "2018-12-10",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Annual%20balance%20sheets%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1Y",
-        "theme": "National Accounts",
-        "temporal": "2015/2017",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/f025885e-09f5-4fd9-ada2-d2b64c633e9f",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Annual-balance-sheets/Annual-balance-sheets-2017-provisional/Download-data/annual-balance-sheets-and-accumulation-accounts-200817-provisional-csv.csv",
-                "format": "CSV",
-                "title": "2008-17 (provisional) dataset"
-            }
-        ]
-    },
-    {
-        "title": "Alcohol  Available for Consumption",
-        "description": "These releases provide estimates of the quantity of alcoholic beverages and tobacco available for consumption in New Zealand. As the tobacco available for consumption series was discontinued in September 2010, for reasons of confidentiality, the release title was changed accordingly.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Alcohol%20available%20for%20consumption%2CInformation%20releases",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "economy",
-            "imports and export",
-            "industries"
-        ],
-        "issued": "1983",
-        "modified": "2018-11-26",
-        "publisher": {
-            "name": "Statistics NZ"
-        },
-        "contactPoint": {
-            "fn": "InfoCentre",
-            "hasEmail": "info@stats.govt.nz"
-        },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Alcohol%20available%20for%20consumption%2CInformation%20releases",
-        "accrualPeriodicity": "R/P3M",
-        "theme": "Health",
-        "temporal": "1983/2018",
-        "distribution": [
-            {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/670bcc59-c688-4468-be48-2af03ed6b363",
-                "title": "Metadata"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Alcohol-available-for-consumption/Alcohol-available-for-consumption-Year-ended-December-2018/Download-data/alcohol-available-for-consumption-year-ended-december-2018-csv.csv",
-                "format": "CSV",
-                "title": "Year ended Dec 2018 data"
-            },
-            {
-                "downloadURL": "http://www.stats.govt.nz/infoshare",
-                "title": "Alcohol available for consumption time series data"
+                "title": "Accommodation survey: January 2019"
             }
         ]
     },
@@ -1938,17 +210,17 @@
         ]
     },
     {
-        "title": "Accommodation Survey",
-        "description": "This provides statistics on guest night numbers, capacity and occupancy rates of hotels, motels, backpacker accommodation, and holiday parks in New Zealand each month. These statistics are used by regional tourism organisations, local and national government and the accommodation industry for monitoring and planning.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Accommodation%20survey%2CInformation%20releases",
+        "title": "Alcohol  Available for Consumption",
+        "description": "These releases provide estimates of the quantity of alcoholic beverages and tobacco available for consumption in New Zealand. As the tobacco available for consumption series was discontinued in September 2010, for reasons of confidentiality, the release title was changed accordingly.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Alcohol%20available%20for%20consumption%2CInformation%20releases",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "keyword": [
-            "accommodation",
             "economy",
-            "industries",
-            "tourism"
+            "imports and export",
+            "industries"
         ],
-        "modified": "2018-02-15",
+        "issued": "1983",
+        "modified": "2018-11-26",
         "publisher": {
             "name": "Statistics NZ"
         },
@@ -1956,52 +228,42 @@
             "fn": "InfoCentre",
             "hasEmail": "info@stats.govt.nz"
         },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Accommodation%20survey%2CInformation%20releases",
-        "accrualPeriodicity": "R/P1M",
-        "theme": "Commerce, trade and industry",
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Alcohol%20available%20for%20consumption%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Health",
+        "temporal": "1983/2018",
         "distribution": [
             {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/38574cd6-b696-41a5-b311-41bfa5611a99",
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/670bcc59-c688-4468-be48-2af03ed6b363",
                 "title": "Metadata"
             },
             {
-                "downloadURL": "http://www.stats.govt.nz/infoshare/",
-                "title": "Accommodation survey time series data"
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Alcohol-available-for-consumption/Alcohol-available-for-consumption-Year-ended-December-2018/Download-data/alcohol-available-for-consumption-year-ended-december-2018-csv.csv",
+                "format": "CSV",
+                "title": "Year ended Dec 2018 data"
             },
             {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Accommodation-survey/Accommodation-survey-January-2019/Download-data/accommodation-survey-january-2019-rto-and-accommodation-type-pivot-table.xlsx",
-                "format": "XLSX",
-                "title": "January 2019 - RTO and accommodation type pivot table"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Accommodation-survey/Accommodation-survey-January-2019/Download-data/accommodation-survey-january-2019-rto-and-origin-pivot-table.xlsx",
-                "format": "XLS",
-                "title": "January 2019 - RTO and origin pivot table"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Accommodation-survey/Accommodation-survey-January-2019/Download-data/accommodation-survey-january-2019-territorial-authority-pivot-table.xlsx",
-                "format": "XLS",
-                "title": "January 2019 - Territorial authority pivot table"
-            },
-            {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Accommodation-survey/Accommodation-survey-January-2019/Download-data/accommodation-survey-january-2019.xlsx",
-                "format": "XLS",
-                "title": "Accommodation survey: January 2019"
+                "downloadURL": "http://www.stats.govt.nz/infoshare",
+                "title": "Alcohol available for consumption time series data"
             }
         ]
     },
     {
-        "title": "Abortion Statistics",
-        "description": "Abortion statistics measure the number of induced abortions that occur in New Zealand hospitals or licensed abortion clinics.",
-        "identifier": "https://www.stats.govt.nz/publications?filters=Abortion%20statistics%2CInformation%20releases",
+        "title": "Annual Balance Sheets",
+        "description": "These provide estimates of assets, liabilities and net worth held by New Zealand institutional sectors (e.g. businesses, households and government) at a single point in time",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Annual%20balance%20sheets%2CInformation%20releases",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "keyword": [
-            "abortions",
-            "health",
-            "society",
-            "women"
+            "business",
+            "economy",
+            "government finance",
+            "gross domestic product",
+            "households",
+            "industries",
+            "national accounts"
         ],
-        "modified": "2018-06-19",
+        "issued": "1848",
+        "modified": "2018-12-10",
         "publisher": {
             "name": "Statistics NZ"
         },
@@ -2009,12 +271,637 @@
             "fn": "InfoCentre",
             "hasEmail": "info@stats.govt.nz"
         },
-        "landingPage": "https://www.stats.govt.nz/publications?filters=Abortion%20statistics%2CInformation%20releases",
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Annual%20balance%20sheets%2CInformation%20releases",
         "accrualPeriodicity": "R/P1Y",
+        "theme": "National Accounts",
+        "temporal": "2015/2017",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/f025885e-09f5-4fd9-ada2-d2b64c633e9f",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Annual-balance-sheets/Annual-balance-sheets-2017-provisional/Download-data/annual-balance-sheets-and-accumulation-accounts-200817-provisional-csv.csv",
+                "format": "CSV",
+                "title": "2008-17 (provisional) dataset"
+            }
+        ]
+    },
+    {
+        "title": "Annual Enterprise Survey",
+        "description": "The ongoing Annual Enterprise Survey (AES) is New Zealand's most comprehensive source of financial statistics and provides annual financial performance and financial position information about business operation within New Zealand. Its coverage is around 80% of New Zealand's Gross Domestic Product (GDP).",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Annual%20enterprise%20survey%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "business",
+            "economy",
+            "industries"
+        ],
+        "issued": "1992",
+        "modified": "2018-06-29",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Annual%20enterprise%20survey%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Commerce, trade and industry",
+        "temporal": "1986/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/36809771-984d-4e6b-89a1-576f2118b05b",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Annual-enterprise-survey/Annual-enterprise-survey-2017-financial-year-provisional/Download-data/annual-enterprise-survey-2017-financial-year-provisional-csv.csv",
+                "format": "CSV",
+                "title": "2017 Financial Year dataset (provisional)"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Annual-enterprise-survey/Annual-enterprise-survey-2017-financial-year-provisional/Download-data/annual-enterprise-survey-2017-financial-year-provisional-size-bands-csv.csv",
+                "format": "CSV",
+                "title": "2017 financial year (provisional) - size bands"
+            }
+        ]
+    },
+    {
+        "title": "Balance of Payments and International Investment Position",
+        "description": "These statistics provide records of the value of the country's transactions with the rest of the world in goods, services, income, and transfers. They also record changes in New Zealand's financial claims on (assets), and liabilities to, the rest of the world",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Balance%20of%20payments%20and%20international%20investment%20position%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "balance of payments",
+            "economy",
+            "imports and exports"
+        ],
+        "issued": "1997",
+        "modified": "2018-09-26",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Balance%20of%20payments%20and%20international%20investment%20position%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Fiscal, tax and economics",
+        "temporal": "2001/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/13e41c3d-4ff4-403b-a503-ecd498f8bc1c",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "Balance of payment time series data"
+            }
+        ]
+    },
+    {
+        "title": "Births",
+        "description": "These measure the number of births  registered in New Zealand. Birth and statistics provide local authorities, health authorities, and research institutions with information needed to plan future and current social services.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Births%20and%20deaths%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "births and deaths",
+            "gender and sex",
+            "population",
+            "women"
+        ],
+        "issued": "1848",
+        "modified": "2018-11-1",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Births%20and%20deaths%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Population and society",
+        "temporal": "1848/09-2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/24f68263-9666-4dca-b5d8-c1bc4bef92c4",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "Birth time series data"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Births-and-deaths/Births-and-deaths-Year-ended-December-2018/Download-data/births-and-deaths-year-ended-december-2018-csv.zip",
+                "format": "ZIP",
+                "title": "Year ended December 2018 data"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Births-by-statistical-area-2-and-area-unit-for-comparison.csv",
+                "format": "CSV",
+                "title": "Births data by statistical area 2 and area unit (comparison)"
+            }
+        ]
+    },
+    {
+        "title": "Building Consents Issued",
+        "description": "This information release contains statistics on consents for residential and non-residential buildings by region and building type. It includes the number, value and floor area of new residential dwellings, and the value of consents for residential alterations and additions. It also includes the value of consents for non-residential buildings, and the floor area of new non-residential buildings",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Building%20consents%20issued%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "building",
+            "economy",
+            "housing"
+        ],
+        "issued": "2017-08-30",
+        "modified": "2019-03-29",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Building%20consents%20issued%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1M",
+        "theme": "Commerce, trade and industry",
+        "temporal": "1965/2019",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/ee083b32-8c10-4ccf-b1ee-a4990b27273c",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Building-consents-issued/Building-consents-issued-February-2019/Download-data/building-consents-issued-february-2019-csv.zip",
+                "format": "CSV, ZIP",
+                "title": "February 2019 data"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "Building consents time series data"
+            }
+        ]
+    },
+    {
+        "title": "Business Activity (GST) Indicator Series",
+        "description": "These releases provide information on business activity in New Zealand, by industry. The Business Activity Indicator is derived from goods and services tax (GST) data. These releases were suspended in 2002.",
+        "identifier": "http://archive.stats.govt.nz/browse_for_stats/businesses/business_growth_and_innovation/business-activity-indicator-info-releases.aspx",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "business",
+            "business activity",
+            "gst",
+            "tax"
+        ],
+        "modified": "2002-02-22",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "http://archive.stats.govt.nz/browse_for_stats/businesses/business_growth_and_innovation/business-activity-indicator-info-releases.aspx",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Fiscal, tax and economics",
+        "temporal": "1992/2001",
+        "distribution": [
+            {
+                "downloadURL": "http://archive.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/BusinessActivityIndicatorGST/HOTPSept01qtr/b-a-gst-i-sep-01-qtr-all-tables.xls",
+                "format": "XLS",
+                "title": "September 2001 quarter data"
+            }
+        ]
+    },
+    {
+        "title": "Business Operations Survey",
+        "description": "The Business Operations Survey is to collect performance measures from New Zealand businesses to better understand the practices and behaviours they undertake which may have an impact on their performance. These statistics feed into policy and micro data research that helps identify the current situation of the New Zealand business environment, as well as potential areas of improvement. The survey covers all businesses in New Zealand that have 6 more employees, and have been active for one year or more.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Business%20operations%20survey%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "and communication technology",
+            "business",
+            "economy",
+            "industries",
+            "information"
+        ],
+        "issued": "2017-03-22",
+        "modified": "2019-03-28",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Business%20operations%20survey%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Business, Economy, Industries, Information and communication technology, Research and development",
+        "temporal": "2015/2017",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/98568739-f933-4c00-8d56-d523f20e68bb",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Business-operations-survey/Business-operations-survey-2018/Download-data/business-operations-survey-2018-business-finance-csv.csv",
+                "format": "CSV",
+                "title": "Business finance 2018"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Business-operations-survey/Business-operations-survey-2018/Download-data/business-operations-survey-2018-changing-nature-of-work-csv.csv",
+                "format": "CSV",
+                "title": "Changing nature of work data 2018"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare",
+                "title": "Business Operations time series data"
+            }
+        ]
+    },
+    {
+        "title": "Business Price Indexes",
+        "description": "This combines the producers price index (PPI) and capital goods price index (CGPI) information releases into one quarterly business price index information release.   The PPI provides information on the change in the general level of prices for the productive sector of New Zealand. The CGPI provides information on changes in the general price level of fixed capital assets.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Business%20price%20indexes%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "agriculture",
+            "business",
+            "economy",
+            "industries",
+            "price indexes"
+        ],
+        "issued": "2015-08-19",
+        "modified": "2019-02-20",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Business%20price%20indexes%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Commerce, trade and industry",
+        "temporal": "1994/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/3cad91a6-e3a2-4dca-bb77-52e11442a0bf",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Business-price-indexes/Business-price-indexes-December-2018-quarter/Download-data/business-price-indexes-december-2018-quarter-csv-corrected.csv",
+                "format": "CSV",
+                "title": "December 2018 quarter data"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "PPI, CEP or FPI data"
+            }
+        ]
+    },
+    {
+        "title": "Census of International Trade in Services and Royalties",
+        "description": "This is a census of all New Zealand businesses that either export or import commercial services and/or receive or make payments abroad for royalties.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "accounting",
+            "advertising",
+            "architecture",
+            "audio visual",
+            "commercial",
+            "communication",
+            "computer",
+            "construction",
+            "consultancy",
+            "country",
+            "cultural",
+            "engineering",
+            "exports of services",
+            "financial",
+            "government services",
+            "imports of services",
+            "insurance",
+            "legal",
+            "management",
+            "market research",
+            "merchanting",
+            "mode of supply",
+            "news and information",
+            "public opinion polling",
+            "public releations",
+            "recreational",
+            "research and development",
+            "software",
+            "technical services",
+            "transportation",
+            "travel"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "accrualPeriodicity": "irregular",
+        "theme": "Commerce, trade and industry",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Business-price-indexes/Business-price-indexes-September-2018-quarter/Download-data/business-price-indexes-september-2018-quarter.csv",
+                "format": "CSV"
+            }
+        ]
+    },
+    {
+        "title": "Central Government Enterprise Survey",
+        "description": "This collects data on the financial transactions of Crown entities. The data collected by this survey is needed to compile quarterly and annual statistics on the performance of the New Zealand economy, such as calculating gross domestic product (GDP) and statistics on Crown research institutes.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "distribution": [
+            {
+                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/InternationalTradeinServicesandRoyalties/HOTPYeJun11/InternationalTradeinServicesandRoyaltiesYeJun11HOTP.pdf",
+                "format": "PDF"
+            }
+        ]
+    },
+    {
+        "title": "Child and Youth Prosecution Statistics - tables (NZ.Stat)",
+        "description": "The Ministry of Justice provides data to Stats NZ about children (aged 10-13) and young people (aged 14-16) charged in court for official release on the Stats NZ website.  Children and young people who are convicted of an offence in the District or High Court are included in the Youth Prosecution Statistics as well as those whose charges are proved in the Youth Court. All numbers in the Youth Prosecution Statistics are rounded to the nearest multiple of three, with the exception of zeroes, which remain as zeroes. The Youth Court is closed to the public, so any details that may identify an individual young person cannot be reported.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Child%20and%20youth%20prosecution%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "children",
+            "crime and justice",
+            "gender and sex",
+            "society"
+        ],
+        "issued": "1992",
+        "modified": "2018-09-25",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Child%20and%20youth%20prosecution%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Justice",
+        "temporal": "1992/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7381",
+                "title": "Children & youth charged in court"
+            },
+            {
+                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7382&_ga=2.124518858.1743379965.1551838710-1576571055.1551838710",
+                "title": "Children & youth given an order in court"
+            }
+        ]
+    },
+    {
+        "title": "Civil unions",
+        "description": "Civil union statistics measure the number of civil unions registered in New Zealand. Civil unions may be entered into by couples of the same sex or by couples of different sexes.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Marriages%20civil%20unions%20and%20divorces%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "family",
+            "gender and sex",
+            "marriages civil unions and divorces",
+            "older people",
+            "population",
+            "society"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Marriages%20civil%20unions%20and%20divorces%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Population and society",
+        "temporal": "2005/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/b3045dd9-ab14-4d67-b079-ab3b67b761d2",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Marriages-civil-unions-and-divorces/Marriages-civil-unions-and-divorces-Year-ended-December-2017/Download-data/marriages-civil-unions-and-divorces-december-2017-zipped-csv-tables.zip",
+                "format": "ZIP",
+                "title": "December 2017 dataset"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "Infoshare data tool"
+            }
+        ]
+    },
+    {
+        "title": "Consumers Price Index",
+        "description": "These releases provide information on the price change of goods and services purchased by private New Zealand households.  The CPI is used to help set monetary policy and for monitoring economic performance. Employers and employees use the CPI in wage negotiations.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Consumers%20price%20index%20%28CPI%29%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "consumers price index",
+            "economy",
+            "households",
+            "price indexes"
+        ],
+        "issued": "2017-07-18",
+        "modified": "2018-10-16",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Consumers%20price%20index%20%28CPI%29%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Fiscal, tax and economics",
+        "temporal": "1975/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/8b0860b8-cf63-4f12-a578-8eed8ba69ac3",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Consumers-price-index/Consumers-price-index-December-2018-quarter/Download-data/consumers-price-index-december-2018-quarter-csv.zip",
+                "format": "ZIP",
+                "title": "December 2018 quarter dataset"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "Infoshare data tool"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Consumers-price-index/CPI-and-FPI-back-series-30-Nov-2017/cpi-and-fpi-back-series-csv.csv",
+                "format": "CSV",
+                "title": "CPI and FPI back series"
+            }
+        ]
+    },
+    {
+        "title": "Criminal Conviction and Sentencing Statistics",
+        "description": "Ministry of Justice court statistics of completed criminal charges for adults (aged 17 years or more) charged in court.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Criminal%20conviction%20and%20sentencing%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "adult",
+            "conviction",
+            "convitions",
+            "court",
+            "crime",
+            "criminal",
+            "justics",
+            "minstry of justice",
+            "offence",
+            "sentencing"
+        ],
+        "modified": "2018-09-25",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Criminal%20conviction%20and%20sentencing%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "irregular",
+        "theme": "Justice",
+        "temporal": "1980/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/7bc31b5b-5afe-42d8-a476-e4daba5cd496",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7371&_ga=2.48915302.1743379965.1551838710-1576571055.1551838710"
+            },
+            {
+                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7372&_ga=2.42206053.1743379965.1551838710-1576571055.1551838710"
+            },
+            {
+                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7373&_ga=2.52079465.1743379965.1551838710-1576571055.1551838710"
+            }
+        ]
+    },
+    {
+        "title": "Crown Financial Information System",
+        "description": "Crown Financial Information System (CFIS) is sourced from Treasury.  An analysis which records the financial transactions of the Crown with all other economic sectors, such as private enterprise, households, local government, state owned enterprises and the rest of the world, is also prepared from the data source.The financial data collected by CFIS is needed to compile quarterly and annual statistics on the performance of the New Zealand economy.  The information is used in the calculation of the Gross Domestic Product, which measures the value of goods less the cost of production.  The information is also used to compile the Analysis of the Crown Accounts.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "distribution": [
+            {
+                "downloadURL": "http://archive.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/CrownAccountsAnalysis/HOTPYeJun05/Crown-Accounts-Analysis-jun05alltables.xls",
+                "format": "XLS"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "Use Infoshare to view and download time-series data"
+            }
+        ]
+    },
+    {
+        "title": "Crown Research Institute Finances",
+        "description": "This annual release provides provisional financial results of the nine Crown Research Institutes (CRIs). The activities of these institutes, which are in a number of different industries, are mainly focused on research and new product development.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "cri",
+            "cris",
+            "crown research institute",
+            "crown research institutes",
+            "finance",
+            "fiscal",
+            "open government",
+            "tax and economics"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Science and Research",
+        "temporal": "1992/2015",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/43d858f5-04b8-4ada-8daa-3a2b3e6b96bb",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare",
+                "title": "Infoshare: to view & download time-series data"
+            }
+        ]
+    },
+    {
+        "title": "Cruise Ship Traveller Statistics",
+        "description": "Since the early 2000s, the number of cruise ships visiting New Zealand has increased significantly. From 2017, Stats NZ is publishing statistics on the number and characteristics of cruise ship travellers, including passengers and crew, and region/port statistics.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Cruise%20ship%20traveller%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Cruise%20ship%20traveller%20statistics%2CInformation%20releases",
         "theme": "Population and society",
         "distribution": [
             {
-                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/7845b64a-dc1a-427c-b9a5-89eaf7c4580b",
+                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/CrownResearchInstituteStatistics/HOTPYe30Jun13/CrownResearchInstituteStatisticsYe30Jun13HOTP.pdf",
+                "format": "PDF"
+            }
+        ]
+    },
+    {
+        "title": "Deaths",
+        "description": "These measure the number of deaths registered in New Zealand. Death statistics provide local authorities, health authorities, and research institutions with information needed to plan future and current social services.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Births%20and%20deaths%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "births and deaths",
+            "gender and sex",
+            "population",
+            "women"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Births%20and%20deaths%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Population and society",
+        "temporal": "1848/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/24c7f58a-7a19-4ac5-b66f-374c563932bf",
                 "title": "Metadata"
             },
             {
@@ -2022,9 +909,1218 @@
                 "title": "Infoshare data tool"
             },
             {
-                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Abortion-statistics/Abortion-statistics-Year-ended-December-2017/Download-data/abortion-statistics-year-ended-december-2017.xlsx",
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Births-and-deaths/Births-and-deaths-Year-ended-December-2017/Download-data/births-and-deaths-year-ended-december-2017-zipped-csv-tables.zip",
+                "format": "ZIP",
+                "title": "Year ended December 2017"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Deaths-by-statistical-area-2-and-area-unit-for-comparison.csv",
+                "format": "CSV",
+                "title": "Death data by statistical area 2 and area unit (comparison)"
+            }
+        ]
+    },
+    {
+        "title": "Disability Survey",
+        "description": "Disability statistics provides information about children and adults with a disability living in New Zealand. This includes the numbers of people with a disability, the nature and cause of impairments and the type of support required.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Disability%20survey%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "disability",
+            "new zealand"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Disability%20survey%2CInformation%20releases",
+        "accrualPeriodicity": "irregular",
+        "theme": "Population and Society",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Births-and-deaths/Births-and-deaths-Year-ended-December-2017/Download-data/births-and-deaths-year-end-december-2017-tables.xlsx",
                 "format": "XLSX",
-                "title": "Year ended December 2017 data"
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "District Health Board Financial Statistics",
+        "description": "Statistics about district health boards provide information about the financial performance of publicly funded hospital and health service providers.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Health",
+        "distribution": [
+            {
+                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/browse-categories/health/disabilities/He-haua-maori-findings-from-2013-disability-survey/he-haua-maori-disability-survey.pdf",
+                "format": "PDF"
+            }
+        ]
+    },
+    {
+        "title": "Divorces",
+        "description": "Divorce statistics measure the number of dissolutions of marriage and civil unions that have orders granted in New Zealand.  Unless otherwise stated divorce statistics refer to orders for dissolution of both marriage and civil union granted in New Zealand.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Marriages%20civil%20unions%20and%20divorces%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "dissolution",
+            "divorce",
+            "marital status",
+            "marriage separation",
+            "population and migration",
+            "vital statistics"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Marriages%20civil%20unions%20and%20divorces%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Population and society",
+        "temporal": "1953/2017",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/f874d0c9-f454-4992-93dd-7294f4618854",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Marriages-civil-unions-and-divorces/Marriages-civil-unions-and-divorces-Year-ended-December-2017/Download-data/marriages-civil-unions-and-divorces-december-2017-zipped-csv-tables.zip",
+                "format": "ZIP",
+                "title": "December 2017 dataset"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare",
+                "title": "Infoshare data tool"
+            }
+        ]
+    },
+    {
+        "title": "Economic Survey of Manufacturing",
+        "description": "The purpose of the Economic Survey of Manufacturing is to collect statistics from a cross section of New Zealand businesses involved in manufacturing. The financial data collected by this survey is used to produce a range of economic indicators. These statistics help government and other organisations in planning and decision making",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Economic%20survey%20of%20manufacturing%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "economy",
+            "industries",
+            "manufacturing and production"
+        ],
+        "modified": "2018-12-10",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Economic%20survey%20of%20manufacturing%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Commerce, trade and industry",
+        "temporal": "1977/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/8b4c8a22-aec1-4b11-bdab-95f96d7dedd9",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Economic-survey-of-manufacturing/Economic-survey-of-manufacturing-September-2018-quarter/Download-data/economic-survey-of-manufacturing-september-2018-quarter-csv.zip",
+                "format": "ZIP",
+                "title": "September 2018 dataset"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare",
+                "title": "Infoshare data tool"
+            }
+        ]
+    },
+    {
+        "title": "Economy Wide Census 1987 Study Series",
+        "description": "The Economy Wide Census 1987  covered most industrial activity, and provided the first comprehensive single year profile of the New Zealand economy.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "accrualPeriodicity": "irregular",
+        "temporal": "1986/1986",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Economic-survey-of-manufacturing/Economic-survey-of-manufacturing-March-2018-quarter/Download-data/economic-survey-of-manufacturing-march-2018-quarter.xlsx",
+                "format": "XLSX"
+            }
+        ]
+    },
+    {
+        "title": "Environmental Protection Expenditure",
+        "description": "This series was part of an annual investigation into environmental protection expenditure and its importance to the New Zealand economy. Environment protection expenditure (EPE) is an internationally recognised term used to describe all goods and services aimed at protecting the environment and encouraging the sustainable use of the earth’s natural resources.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "temporal": "2000/2003",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Environmental-economic-accounts-2018/Download-data/air-emissions-1990-2015-csv.csv",
+                "format": "CSV"
+            }
+        ]
+    },
+    {
+        "title": "Geographic boundary data annual release",
+        "description": "The Stats NZ geographic data service provides geographic boundaries for 2018 as well as other recent years, and a selection of 2013 Census spatial data.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Geographic%20boundary%20data%20annual%20release%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "census",
+            "maori",
+            "population"
+        ],
+        "modified": "2018-12-6",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Geographic%20boundary%20data%20annual%20release%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Population and society",
+        "distribution": [
+            {
+                "downloadURL": "https://datafinder.stats.govt.nz/layers/category/annual-boundaries/2019/?q=2019"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare/",
+                "title": "Infoshare data tool"
+            }
+        ]
+    },
+    {
+        "title": "Government Current Transactions",
+        "description": "Government Current Transactions is a component of the Services item of New Zealand's Balance of Payments statement.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Goods-and-services-trade-by-country/Goods-and-services-trade-by-country-Year-ended-March-2018/Download-data/goods-and-services-trade-by-country-year-ended-march-2018-tables.xlsx",
+                "format": "XLSX"
+            }
+        ]
+    },
+    {
+        "title": "Historical de facto population estimates",
+        "description": "De facto population estimates include all people present in New Zealand and counted by the census (census night population count). De facto estimates include visitors from overseas who are counted on census night, but exclude New Zealand residents who are temporarily overseas. The estimated de facto population at a given date after census includes births, deaths and net migration (arrivals less departures) of people during the period between census night and the given date. De facto population estimates are no longer produced.",
+        "identifier": "http://archive.stats.govt.nz/browse_for_stats/population/estimates_and_projections/historical-population-tables.aspx",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "de facto",
+            "estimates",
+            "historical",
+            "historical estimates",
+            "population and migration"
+        ],
+        "issued": "1926-03-31",
+        "modified": "1995-12-31",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "http://archive.stats.govt.nz/browse_for_stats/population/estimates_and_projections/historical-population-tables.aspx",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Population and society",
+        "temporal": "1926/1995",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/bec27cc6-c9e2-4b7a-b1f4-cb5e096f91ad",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "http://archive.stats.govt.nz/~/media/Statistics/browse-categories/population/estimates-projections/national-pop-estimates/historical-pop-estimates.xlsx",
+                "format": "XLSX",
+                "title": "Dataset"
+            }
+        ]
+    },
+    {
+        "title": "Household Econmic Survey (Expenditure)",
+        "description": "The Household Economic Survey (HES) is an annual survey that collects information on income, housing costs, material wellbeing and demographic information on households and individuals in New Zealand. There are three versions of the HES, including HES (Income), HES (Expenditure) and HES (Savings). The HES (Income) is the primary content and is collected every year, but combined with HES (Expenditure) and HES (Savings) alternately in the two years  in between the standalone HES every year.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            " expenditure",
+            "fiscal",
+            "households",
+            "income",
+            "open government",
+            "tax and economics"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "accrualPeriodicity": "irregular",
+        "theme": "Population and society"
+    },
+    {
+        "title": "Household Economic Survey",
+        "description": "The Household Economic Survey (HES) is an annual survey that collects information on income, housing costs, material wellbeing and demographic information on households and individuals in New Zealand. There are three versions of the HES, including HES (Income), HES (Expenditure) and HES (Savings). The HES (Income) is the primary content and is collected every year, but combined with HES (Expenditure) and HES (Savings) alternately in the two years  in between the standalone HES every year.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            " expenditure",
+            "fiscal",
+            "households",
+            "income",
+            "open government",
+            "tax and economics"
+        ],
+        "modified": "2015-11-26",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Population and society"
+    },
+    {
+        "title": "Household Economic Survey (Income)",
+        "description": "The Household Economic Survey (HES) is an annual survey that collects information on income, housing costs, material wellbeing and demographic information on households and individuals in New Zealand. There are three versions of the HES, including HES (Income), HES (Expenditure) and HES (Savings). The HES (Income) is the primary content and is collected every year, but combined with HES (Expenditure) and HES (Savings) alternately in the two years  in between the standalone HES every year.",
+        "identifier": "https://www.stats.govt.nz/insights?filters=Household%20economic%20survey%20%28income%29%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            " expenditure",
+            "fiscal",
+            "households",
+            "income",
+            "open government",
+            "tax and economics"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/insights?filters=Household%20economic%20survey%20%28income%29%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Population and society",
+        "temporal": "1973/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/item/nz.govt.stats/27d850c1-939c-4e93-b61c-a1b5196b7f27/248",
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "Household Economic Survey (Savings)",
+        "description": "The Household Economic Survey (HES) is an annual survey that collects information on income, housing costs, material wellbeing and demographic information on households and individuals in New Zealand. There are three versions of the HES, including HES (Income), HES (Expenditure) and HES (Savings). The HES (Income) is the primary content and is collected every year, but combined with HES (Expenditure) and HES (Savings) alternately in the two years  in between the standalone HES every year.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            " expenditure",
+            "fiscal",
+            "households",
+            "income",
+            "open government",
+            "tax and economics"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "accrualPeriodicity": "irregular"
+    },
+    {
+        "title": "Household Net Worth Statistics",
+        "description": "Household net worth statistics give a picture of the net worth (wealth) of New Zealanders, by looking at their household assets - financial and non-financial - and their liabilities.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Household%20net%20worth%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "economy",
+            "ethnicity",
+            "gender and sex",
+            "households",
+            "income",
+            "maori",
+            "older people",
+            "society"
+        ],
+        "modified": "2018-12-14",
+        "publisher": {
+            "name": "Stats NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "info@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Household%20net%20worth%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "irregular",
+        "theme": "Population and society",
+        "temporal": "2015/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/f98d411f-4903-477a-b7ce-ffc70e85b378",
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "Human Resources Capability (HRC) Survey",
+        "description": "The Human Resource Capability data collection is run annually and collects anonymous information about Public Service department employees, including staff numbers, pay, senior leaders, diversity and workplace wellbeing. The results provides trends and insights across the Public Service workforce. The results can be drawn on to monitor, plan and address present and future workforce issues at department and system levels.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "State Services Commission"
+        },
+        "contactPoint": {
+            "fn": "State Services Commission"
+        },
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "State sector performance",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Household-net-worth-statistics/Household-net-worth-statistics-Year-ended-June-2018/Download-data/household-net-worth-statistics-year-ended-june-2018-csv.zip",
+                "format": "ZIP"
+            }
+        ]
+    },
+    {
+        "title": "International Trade in Services and Royalties Survey",
+        "description": "This survey is used to calculate New Zealand's imports and exports of services from other countries.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "accrualPeriodicity": "R/P3M",
+        "distribution": [
+            {
+                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/InjuryStatistics/HOTP16/InjuryStatistics16HOTP.pdf",
+                "format": "PDF"
+            }
+        ]
+    },
+    {
+        "title": "International Visitor Arrivals to New Zealand",
+        "description": "International visitor arrivals to New Zealand provides monthly and annual data showing the number and characteristics of visitor arrivals.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=International%20visitor%20arrivals%20to%20New%20Zealand%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=International%20visitor%20arrivals%20to%20New%20Zealand%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1M",
+        "theme": "Population and society",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/International-travel-and-migration/International-travel-and-migration-April-2018/Download-data/international-travel-and-migration-april-2018-tables.xlsx",
+                "format": "XLSX",
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "Labour Market Statistics (Income)",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Labour%20market%20statistics%20%28income%29%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Labour%20market%20statistics%20%28income%29%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Labour-market-statistics/Labour-market-statistics-March-2018-quarter/Download-data/household-labour-force-survey-march-2018-quarter-tables.xlsx",
+                "format": "XLSX",
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "Linked Employee-Employer Data",
+        "description": "These releases provide statistics on filled jobs, job flows, worker flows, mean and median earnings for continuing jobs and new hires, and total earnings.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Linked%20employer-employee%20data%20%28LEED%29%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            " age",
+            "firm size",
+            "industry",
+            "leed",
+            "region",
+            "sector",
+            "sex",
+            "territorial authority"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Linked%20employer-employee%20data%20%28LEED%29%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Employment"
+    },
+    {
+        "title": "Longitudinal Immigration Study of New Zealand",
+        "description": "International visitor arrivals to New Zealand provides monthly and annual data showing the number and characteristics of visitor arrivals.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "demography",
+            "education",
+            "employment",
+            "health",
+            "housing",
+            "living arrangement",
+            "migration",
+            "population",
+            "settlement",
+            "social"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "theme": "Population and society",
+        "temporal": "2004/2010",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Local-authority-statistics/Local-authority-statistics-March-2018-quarter/Download-data/local-authority-statistics-march-2018-quarter-tables.xlsx",
+                "format": "XLSX"
+            },
+            {
+                "format": "XLS"
+            },
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/551e4107-6040-44fe-a5df-fde83989e6c1",
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "National Accounts input-output tables",
+        "description": "Input-output tables are a powerful analytical tool for describing the structure of New Zealand’s economy. They show the relationships between industries, the goods and services they produce, and who uses them.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "accrualPeriodicity": "irregular",
+        "temporal": "2007/",
+        "distribution": [
+            {
+                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/NationalAccounts/HOTPYeMar11/NationalAccountsYeMar11HOTP.pdf",
+                "format": "PDF"
+            }
+        ]
+    },
+    {
+        "title": "NZ's Environmental Reporting Series",
+        "description": "Statistics and information about the state of the New Zealand’s environment, co-published by Statistics NZ and the Ministry for the Environment.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=New%20Zealand%27s%20environmental%20reporting%20series%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "air",
+            "environment"
+        ],
+        "modified": "2018-10-18",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=New%20Zealand%27s%20environmental%20reporting%20series%2CInformation%20releases",
+        "accrualPeriodicity": "irregular",
+        "temporal": "2015/2017",
+        "distribution": [
+            {
+                "downloadURL": "https://data.mfe.govt.nz/data/category/environmental-reporting/air/",
+                "title": "Air data dataset"
+            }
+        ]
+    },
+    {
+        "title": "Overseas Merchandise Trade",
+        "description": "This information release provides statistical information on the importing and exporting of merchandise goods between New Zealand and other countries. Merchandise trade includes goods which add to or subtract from the material resources in New Zealand as a result of their movement in or out of the country. Data is obtained from the New Zealand Customs Service.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Overseas%20merchandise%20trade%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "agriculture",
+            "agriculture imports",
+            "cargo",
+            "commerce",
+            "exports",
+            "exports as gdp",
+            "fire extinguishers",
+            "fireworks",
+            "gdp",
+            "import",
+            "import export directory",
+            "importa and exports by category",
+            "imports",
+            "meat",
+            "merchandise trade",
+            "milk powder",
+            "mussels",
+            "nz customs",
+            "oil gas",
+            "open government",
+            "overseas trade",
+            "pyrotechnics",
+            "tariff",
+            "trade",
+            "trade and industry",
+            "trophy"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "Trade data team",
+            "hasEmail": "overseastrade@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Overseas%20merchandise%20trade%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1M",
+        "theme": "Commerce, trade and industry",
+        "temporal": "1990/2018-12"
+    },
+    {
+        "title": "Productivity Measures Statistics",
+        "description": "Productivity statistics measure how efficiently inputs (capital and labour) are used within the economy to produce outputs.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Productivity%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "economy",
+            "industries",
+            "productivity"
+        ],
+        "issued": "2017-03-22",
+        "modified": "2018-02-22",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre",
+            "hasEmail": "productivity@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Productivity%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Fiscal, tax and economics",
+        "temporal": "1978/2017",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Overseas-merchandise-trade/Overseas-merchandise-trade-April-2018/Download-data/overseas-merchandise-trade-April-2018.xlsx",
+                "format": "XLSX",
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "Property Transfer",
+        "description": "Property transfer statistics summarise the citizenship or visa status and tax residency of buyers and sellers of homes and land in New Zealand. They are are used to monitor tax obligations, and inform housing policy.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Property%20transfer%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "dwellings",
+            "land",
+            "overseas people",
+            "specified estate in land"
+        ],
+        "issued": "2018-06-7",
+        "modified": "2019-02-8",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Property%20transfer%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "temporal": "2013/",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/88b62a7f-7ce9-4c97-821e-e7d9505ef55e",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Property-transfer-statistics/Property-transfer-statistics-December-2018-quarter/Download-data/property-transfer-statistics-december-2018-quarter-tables-csv.zip",
+                "format": "ZIP",
+                "title": "December 2018 quarter data"
+            },
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare",
+                "title": "Infoshare data tool"
+            }
+        ]
+    },
+    {
+        "title": "Ready-mixed concrete, secondary production",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Ready-mixed%20concrete%20secondary%20production%20%28SEP%29%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "modified": "2019-02-8",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Ready-mixed%20concrete%20secondary%20production%20%28SEP%29%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "temporal": "1992/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare",
+                "title": "Infoshare online tool"
+            }
+        ]
+    },
+    {
+        "title": "Screen Industry Survey",
+        "description": "These releases provide information on businesses involved in the screen industry, including production and post production activities, film and video distribution, film exhibition, and television broadcasting.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Screen%20industry%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "business",
+            "economy",
+            "employment and unemployment",
+            "industries"
+        ],
+        "issued": "2006-08-31",
+        "modified": "2018-04-10",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Screen%20industry%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Arts, Culture and Heritage",
+        "temporal": "2004/2017",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/d5b98a1e-27ab-4792-8bd9-75d3f3493f44",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Screen-industry/Screen-industry-2016-17/Download-data/screen-industry-2016-17-tables.xlsx",
+                "format": "XLS",
+                "title": "2016/17 dataset"
+            }
+        ]
+    },
+    {
+        "title": "Serious injury outcome indicators",
+        "description": "Serious injury outcome indicators shows trends in fatal, serious non-fatal, and serious (fatal and non-fatal) injuries for the whole population, M?ori, and children (aged under 15 years).",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Serious%20injury%20outcome%20indicators%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "children",
+            "employment and unemployment",
+            "health",
+            "injuries",
+            "maori",
+            "society"
+        ],
+        "issued": "2000",
+        "modified": "2018-10-1",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "Injury Data team",
+            "hasEmail": "Injury&Crimedata-SharedMailbox@stats.govt.nz."
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Serious%20injury%20outcome%20indicators%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Health",
+        "temporal": "1994/2017",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/ed2d795c-dd2e-457d-97ea-4249fcef2a93",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Serious-injury-outcome-indicators/Serious-injury-outcome-indicators-2000-17/Download-data/serious-injury-outcome-indicators-2000-17-csv.zip",
+                "format": "ZIP",
+                "title": "2000-17 dataset"
+            },
+            {
+                "downloadURL": "http://nzdotstat.stats.govt.nz/wbos/Index.aspx?DataSetCode=TABLECODE7935",
+                "title": "Dataset using NZ.Stats online tool"
+            }
+        ]
+    },
+    {
+        "title": "Statistics NZ Annual Report (Financial Statements)",
+        "description": "The financial statements in this report include an audit of a number of financial areas. These include the statement of financial position, statement of commitments, statement of contingent liabilities and contingent assets, the statement of comprehensive revenue and expense, statement of changes in equity, and statement of cash flows for the year ended on that date and the notes to the financial statements that include accounting policies and other explanatory information.",
+        "identifier": "https://www.stats.govt.nz/about-us/corporate-publications",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "annual report",
+            "financial statement"
+        ],
+        "modified": "2018-10-16",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/about-us/corporate-publications",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "State sector performance",
+        "temporal": "2004/2018",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Annual-report-2018/Stats-NZ-Annual-Report-Full-WEB-1.pdf",
+                "format": "PDF",
+                "title": "Year ended 30 June 2018"
+            },
+            {
+                "downloadURL": "http://archive.stats.govt.nz/about_us/what-we-do/our-publications/annual-reports.aspx",
+                "format": "PDF",
+                "title": "Annual reports 2004-17"
+            }
+        ]
+    },
+    {
+        "title": "Statistics NZ submissions and advice to the Governance and Administration Select Committee (formerly known as Government and Administration Select Committee)",
+        "description": "The Governance and Administration Select Comittee provide written advice in response to public submissons by the committees' offical advisers. Documents of interest relating to Statistics New Zealand include Quarterly Reports to the Minister, Statistics New Zealand's Reponse to Annual Review Questions.",
+        "identifier": "https://www.parliament.nz/en/pb/sc/submissions-and-advice/?criteria.Keyword=Statistics&criteria.Author=Government+Administration+Committee&criteria.ParliamentNumber=-1&criteria.Timeframe=&criteria.DateFrom=&criteria.DateTo=",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Select Committee Office"
+        },
+        "contactPoint": {
+            "fn": "Select Committee Office"
+        },
+        "landingPage": "https://www.parliament.nz/en/pb/sc/submissions-and-advice/?criteria.Keyword=Statistics&criteria.Author=Government+Administration+Committee&criteria.ParliamentNumber=-1&criteria.Timeframe=&criteria.DateFrom=&criteria.DateTo=",
+        "theme": "State sector performance"
+    },
+    {
+        "title": "(Deprecated listing) Statistics NZ's Chief Executive Business Expense Disclosure",
+        "description": "This documents business expenses and gifts incurred by the Government Statistician as Chief Executive for each financial year",
+        "identifier": "https://www.stats.govt.nz/about-us/corporate-publications",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/about-us/corporate-publications",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "State sector performance",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Chief-executive-expenses-1-July-2017-30-June-2018.xlsx",
+                "format": "XLS",
+                "title": "Business expense disclosure"
+            }
+        ]
+    },
+    {
+        "title": "Subnational Ethnic Population Projections",
+        "description": "Subnational ethnic population projections indicate the future population living in New Zealand's 16 regional council areas (regions), 67 territorial authority areas (TAs), and 21 Auckland local board areas (LBAs) for four broad and overlapping ethnic groups: 'European or Other (including New Zealander)', M?ori, Asian, and Pacific.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Subnational%20ethnic%20population%20projections%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "asian",
+            "ethnic",
+            "european",
+            "european or other",
+            "maori",
+            "mori",
+            "new zealander",
+            "pacific",
+            "population",
+            "subnational"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Subnational%20ethnic%20population%20projections%2CInformation%20releases",
+        "accrualPeriodicity": "irregular",
+        "theme": "Population and society"
+    },
+    {
+        "title": "Subnational Population Estimates",
+        "description": "These provide population estimates in the 16 regional council areas (regions), 67 territorial authority areas, and 21 Auckland local board areas (LBAs) of New Zealand. This includes quarterly and annual changes in the resident population, and estimated population numbers for selected age groups.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Subnational%20population%20estimates%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "age group",
+            "area unit",
+            "births",
+            "deaths",
+            "estimated resident population",
+            "internal migration",
+            "international migration",
+            "population",
+            "population change",
+            "population growth",
+            "regional council",
+            "regional council areas",
+            "subnational",
+            "territoral authority",
+            "territorial authority areas",
+            "urban area"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Subnational%20population%20estimates%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Population and society",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Subnational-family-and-household-projections/Subnational-family-and-household-projections-2013base-update/Download-data/subnational-family-and-households-projections-13-38-update-tables.xlsx",
+                "format": "XLSX",
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "The Hedging of Overseas Foreign Currency Liabilities Survey",
+        "description": "The Hedging of Overseas Foreign Currency Liabilities Survey is a supplement of the Quarterly International Investment Survey (QIIS ). It asks for risk management information about respondent's foreign currency overseas liabilities.",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "accrualPeriodicity": "R/P1Y",
+        "distribution": [
+            {
+                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/SubnationalPopulationEstimates/HOTPAtJun16/snpe-at30jun16-all-tables.xlsx",
+                "format": "XLSX"
+            },
+            {
+                "format": "XLS"
+            }
+        ]
+    },
+    {
+        "title": "Tourism Satellite Account",
+        "description": "These releases provide a picture of the role tourism plays in New Zealand, including the changing levels and impact of tourism activity, and the industry's contribution to the economy",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Tourism%20satellite%20account%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "domestic",
+            "economics",
+            "expenditure",
+            "export",
+            "foreign exchange",
+            "gst",
+            "imports",
+            "international",
+            "tourism value"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Tourism%20satellite%20account%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "Population and society",
+        "distribution": [
+            {
+                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/Browse%20for%20stats/SubnationalPopulationProjections/HOTP2013base/SubnationalPopulationProjections2013baseHOTP.pdf",
+                "format": "PDF",
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "Transport Vehicle Registration",
+        "description": "Transport vehicle registrations record motor vehicles currently licensed by type, and new and ex-overseas motor vehicles registered by type.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Transport%20vehicle%20registrations%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "economy",
+            "industries",
+            "transport"
+        ],
+        "modified": "2019-02-20",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Transport%20vehicle%20registrations%2CInformation%20releases",
+        "accrualPeriodicity": "R/P1M",
+        "theme": "Transport",
+        "temporal": "1998/2018",
+        "distribution": [
+            {
+                "downloadURL": "http://www.stats.govt.nz/infoshare",
+                "title": "Infoshare online tool"
+            }
+        ]
+    },
+    {
+        "title": "Value of Building Work Put in Place",
+        "description": "These releases provide estimates of the actual dollar value of work put in place on construction jobs in New Zealand. It measures activity within the construction sector.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Value%20of%20building%20work%20put%20in%20place%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "accommodation",
+            "additions",
+            "alterations",
+            "commercial",
+            "construction",
+            "educational",
+            "factories",
+            "hospitals",
+            "industrial buildings",
+            "new dwellings",
+            "nursing homes",
+            "out buildings",
+            "residential",
+            "seasonally adjusted",
+            "trend"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Value%20of%20building%20work%20put%20in%20place%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Building, construction and housing",
+        "distribution": [
+            {
+                "downloadURL": "http://www.stats.govt.nz/~/media/Statistics/browse-categories/industry-sectors/tourism/tourism-sattellite-account-2016/tsa-16-prov-year-tables-1-16.xlsx",
+                "format": "XLSX",
+                "title": "Metadata"
+            }
+        ]
+    },
+    {
+        "title": "Well-being Statistics",
+        "description": "Well-being statistics provide information on a wide range of social and economic outcomes, and how these outcomes are distributed across different groups within the New Zealand population aged 15 years and over.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Well-being%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "archives new zealand",
+            "economic",
+            "population",
+            "social",
+            "wellbeing"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Well-being%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "irregular",
+        "theme": "Population and society"
+    },
+    {
+        "title": "Wholesale Trade Survey",
+        "description": "Wholesale Trade statistics measure the sale or resale of new or used goods to retailers, including businesses or institutional users (including government). They provide short-term economic indicators for the wholesale trade sector.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Wholesale%20trade%20survey%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "commerce",
+            "exports",
+            "open government",
+            "trade",
+            "trade and industry",
+            "wholesale trade"
+        ],
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Wholesale%20trade%20survey%2CInformation%20releases",
+        "accrualPeriodicity": "R/P3M",
+        "theme": "Commerce, trade and industry",
+        "distribution": [
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Value-of-building-work-put-in-place/Value-of-building-work-put-in-place-March-2018-quarter/Download-data/value-of-building-work-put-in-place-march-2018-quarter.xlsx",
+                "format": "XLSX"
+            }
+        ]
+    },
+    {
+        "title": "Housing Net Worth Statistics",
+        "description": "Household net worth statistics give a picture of the net worth (wealth) of New Zealanders, by looking at their household assets - financial and non-financial - and their liabilities.",
+        "identifier": "https://www.stats.govt.nz/publications?filters=Household%20net%20worth%20statistics%2CInformation%20releases",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "economy",
+            "ethnicity",
+            "gender and sex",
+            "households",
+            "maori",
+            "older people",
+            "society"
+        ],
+        "modified": "2018-12-14",
+        "publisher": {
+            "name": "Statistics NZ"
+        },
+        "contactPoint": {
+            "fn": "InfoCentre"
+        },
+        "landingPage": "https://www.stats.govt.nz/publications?filters=Household%20net%20worth%20statistics%2CInformation%20releases",
+        "accrualPeriodicity": "irregular",
+        "temporal": "2015/2017",
+        "distribution": [
+            {
+                "downloadURL": "http://datainfoplus.stats.govt.nz/Item/nz.govt.stats/f98d411f-4903-477a-b7ce-ffc70e85b378",
+                "title": "Metadata"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Household-net-worth-statistics/Household-net-worth-statistics-Year-ended-June-2018/Download-data/household-net-worth-statistics-year-ended-june-2018-csv.zip",
+                "format": "ZIP",
+                "title": "Year ended 30 June 2018"
+            }
+        ]
+    },
+    {
+        "title": "Statistics New Zealand Chief Executive expenses",
+        "description": "Report of business expenses or gifts incurred by the Government Statistician as chief executive.",
+        "identifier": "https://www.stats.govt.nz/corporate/",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "chief executive",
+            "government statistician",
+            "open government",
+            "statistics"
+        ],
+        "issued": "2012-01-4",
+        "publisher": {
+            "name": "Stats NZ"
+        },
+        "contactPoint": {
+            "fn": "Finance enquiry",
+            "hasEmail": "julie.young@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/corporate/",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "State sector performance",
+        "distribution": [
+            {
+                "downloadURL": "https://catalogue.data.govt.nz/dataset/5793c164-9990-4f80-838d-825673cf45df/resource/c977667e-77a7-4980-9909-bfbc23544454/download/final-mark-sowden-ce-expenditure-jan-june.xlsx",
+                "format": "XLSX",
+                "title": "January 2020 - June 2020"
+            },
+            {
+                "downloadURL": "https://catalogue.data.govt.nz/dataset/5793c164-9990-4f80-838d-825673cf45df/resource/8cfbfcf9-d600-435c-85dd-93e200484256/download/final-liz-macpherson-ce-expenditure-july-dec.xlsx",
+                "format": "XLSX",
+                "title": "July 2019 - December 2019"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Chief-executive-expenses-1-July-2017-30-June-2018.xlsx",
+                "format": "XLSX",
+                "title": "2017-2018 expenses"
+            }
+        ]
+    },
+    {
+        "title": "(Deprecated listing) Statistics New Zealand Chief Executive expenses",
+        "description": "Report of business expenses or gifts incurred by the Government Statistician as chief executive.",
+        "identifier": "https://www.stats.govt.nz/corporate/",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "keyword": [
+            "chief executive",
+            "government statistician",
+            "open government",
+            "statistics"
+        ],
+        "issued": "2012-01-4",
+        "publisher": {
+            "name": "Stats NZ"
+        },
+        "contactPoint": {
+            "fn": "Finance enquiry",
+            "hasEmail": "julie.young@stats.govt.nz"
+        },
+        "landingPage": "https://www.stats.govt.nz/corporate/",
+        "accrualPeriodicity": "R/P1Y",
+        "theme": "State sector performance",
+        "distribution": [
+            {
+                "downloadURL": "https://catalogue.data.govt.nz/dataset/5793c164-9990-4f80-838d-825673cf45df/resource/c977667e-77a7-4980-9909-bfbc23544454/download/final-mark-sowden-ce-expenditure-jan-june.xlsx",
+                "format": "XLSX",
+                "title": "January 2020 - June 2020"
+            },
+            {
+                "downloadURL": "https://catalogue.data.govt.nz/dataset/5793c164-9990-4f80-838d-825673cf45df/resource/8cfbfcf9-d600-435c-85dd-93e200484256/download/final-liz-macpherson-ce-expenditure-july-dec.xlsx",
+                "format": "XLSX",
+                "title": "July 2019 - December 2019"
+            },
+            {
+                "downloadURL": "https://www.stats.govt.nz/assets/Uploads/Chief-executive-expenses-1-July-2017-30-June-2018.xlsx",
+                "format": "XLSX",
+                "title": "2017-2018 expenses"
             }
         ]
     },
